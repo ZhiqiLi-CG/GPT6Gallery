@@ -1,0 +1,56 @@
+{
+ "brief": {
+  "owner": "root",
+  "version": 2,
+  "spec": "Complete compact Japanese island town, approximately 220 by 195 metres of inhabited and wooded land within a continuous sea. Root supplies relief, the hill platform, founded lot heights, the shore and harbor basin, stream channel and water, connected narrow streets and stone stair streets on the temple hill. Shared functions heightAt, roadNetwork, layout, streamX and streamWater remain the authoritative geometry contract in modules/root.js.\n\nThe three village owners supply 30 complete individual timber houses and shops with tiled roofs, framed walls and openings, foundations, worked yards, sheds, fences, kitchen gardens, tools and household drying. Temple supplies the main hall, five-tier pagoda, gate, courtyard, bell pavilion, gardens and lanterns. Harbor supplies six fitted fishing boats, three piers, quay, breakwater and three work sheds with fishing gear, drying racks and handling spaces. Rice terraces supplies seven planted wet paddies with retaining masonry and irrigation, storage farmyard and garden. Shore shrine supplies the vermilion torii, sanctuary, founded approach, lanterns, basin and rocky planted coast. Stream-garden supplies both complete timber crossings and the spring, working bank and estuary detail. Woodland supplies 118 varied trees, understory, shoreline rocks, fallen limbs and registered clearings in the residual land mask. District owners retain all internal construction; root owns only continuous structure.\n\nCompletion criteria: all named scene features are visible from the complete camera set, paths and approaches connect, construction is founded, roofs and boats have true three-dimensional internal structure, and close views show individual materials and signs of occupation. The nine-way district decomposition and its smaller child assemblies are accepted. Reopened stream approaches and western village trees now pass close review; no unresolved task remains. Root provisional masses are permanently retired and omitted from its final object list.",
+  "by": "root"
+ },
+ "conventions": {
+  "owner": "root",
+  "version": 1,
+  "spec": "Version 1. Metres; x east, z north, y up. Sea y=0. Muted natural timber, dark slate-blue/gray ceramic roof tiles, warm plaster, weathered gray stone; vermilion shrine accents, pink cherry blossom, varied dark green pines. Full 3D geometry, all camera directions, no billboards or floating construction. Module build(THREE,ctx) returns world-coordinate Object3D. Import shared functions from ./root.js; do not copy terrain formulas.",
+  "by": "root"
+ },
+ "terrain": {
+  "owner": "root",
+  "version": 1,
+  "spec": "Version 1. Owner root; modules/root.js exports heightAt(x,z), streamX(z), streamWater(z). Use heightAt for ALL foundations, paths and vegetation. Island roughly x \u00b1112, z \u00b194, with submerged perimeter; sea y=0. Temple plateau center (7,52), main flat area x[-11,25],z[38,66] at y25; blends into relief. Harbor graded apron x[53,89],z[-60,-45] at y2.1, submerged basin x[53,91],z[-85,-63]; quay top2.3. Stream center streamX(z), z[-84,60], wet half-width2.1; streamWater(z) is water top, channel bottom ~water-1.0. Banks remain root terrain. No child changes surface, stream course or sea. Children may add founded retaining walls and local plinths above it.",
+  "by": "root"
+ },
+ "roads": {
+  "owner": "root",
+  "version": 3,
+  "spec": "Version 3. Owner root; modules/root.js exports roadNetwork() returning {id,width,points:[[x,z],...]}. Root draws terrain-following lanes. Three house lanes x=-50.5,-17.5,15.5, width2.8\u20133; cross-town harbor-lane at z=-23 width3.8 runs from fields to harbor (62,-55). Shore path reaches(-77,-65); field path x\u2248-77 reaches(-76,46); central/east lane ends(7,36) at temple entry. north-crossing runs (15.5,29),(31,31),(40,31),(50,31),(61,39). Root leaves stream spans empty within 3.4m of channel center; stream-garden owns BOTH z31 footbridge and z-23 service bridge. Keep streets clear by width/2 +0.35m. Owners may add street-edge drains, stones and props within their district, not reroute roads. Implementation correction: harbor-lane now stays at z=-23 through (36,-23) and (51,-23), then runs via (56,-37) to (62,-55), matching the agreed service bridge center z=-23. All other road polylines/widths are unchanged. Root road surfacing has dense terrain-following tessellation, tapered shoulders and subtle worn tracks; child street-edge ownership is unchanged. Final surface completion: central-lane and east-lane north of z18 use founded stone tread streets up the temple hill, with level treads across each street width. All road polylines, widths, bridge centers and heightAt remain unchanged. Stream-garden owns the accepted supported bridge landing polygons and thresholds. Root district previews are permanently retired.",
+  "by": "root"
+ },
+ "layout": {
+  "owner": "root",
+  "version": 1,
+  "spec": "Version 1. Owner root; modules/root.js exports layout(): lots (30), districts, temple, harbor, shrine, seaLevel,stream. Each lot {id,district,x,z,w:11,d:12,houseW:7.3,houseD:8,y,front}. Three neighborhoods each have 10 lots in two columns and five rows z=-48,-33,-10,6,22. West columns x=-58,-43; central -25,-10; east8,23. Foundations use published lot.y and heightAt around edges. House footprints may vary modestly inside lots; preserve centers, shared lanes and district borders. Temple[-22,35,34,77]; harbor[49,-90,95,-29]; rice[-96,-19,-66,62]; shrine[-94,-79,-63,-42]; stream band center\u00b18 over z[-84,63]. Woodland owns only residual land outside all district rectangles (expanded 2m) and outside roads, lots and stream band. Root provisional masses hide when any object ID begins exact child-id plus underscore, slash or hyphen; every child MUST register ids prefixed by its supplied id plus underscore.",
+  "by": "root"
+ },
+ "cameras": {
+  "owner": "root",
+  "version": 1,
+  "spec": "Version 1. Owner root. world/cameras.json defines south,north,east,west,hero,town-close,harbor-close,temple-close,fields-close. Main review hero and compass set; magnify your region with --rect and also inspect relevant close camera. Root owns camera edits.",
+  "by": "root"
+ },
+ "temple-layout": {
+  "owner": "temple",
+  "version": 1,
+  "spec": "Version1; temple owns. modules/temple.js exports templeLayout(). Root heightAt unchanged. Founded terrace top y25.22 over x[-13,32],z[40,68]. Main hall child temple-hall owns complete building center(1,56), reservation x[-11,13],z[47,66], maxY42. Pagoda child temple-pagoda owns five-tier structure center(23,56), reservation x[15,31],z[48,64], maxY60. Children own building foundation, veranda and short steps. Temple parent owns all external grounds, roofed gate(7,40), approach x7,z36..48,width3.6; path across z45..47.5; bell(-16,46), walls, lanterns, gardens and planting. Parent placeholders hidden by registered temple-hall_ and temple-pagoda_ prefixes. Buildings import templeLayout() only, never build(). Muted wood0x70503a/dark0x42352b,tile0x47565d,stone0x85877c,plaster0xd0c5ac.",
+  "by": "temple"
+ },
+ "harbor-layout": {
+  "owner": "harbor",
+  "version": 1,
+  "spec": "Version 1. Owner harbor, exported harborLayout() in modules/harbor.js. Import this and root heightAt, roadNetwork, layout. Quay x53..90 z[-62,-59.4] top2.3. Parent owns all masonry, breakwater, stairs, slipway, piers, bollards and attached ropes/ladders/fenders. Three piers: x59 width2.3 to z-77, x72 width2.5 to z-79, x85 width2.3 to z-77; each starts z-62 with steps and deck top1.52 south of z-63.25. Six boat centers/lengths/widths/rotations and three shed footprints are returned by harborLayout(); preserve their positions. Water y0, basin floor about-3. L breakwater at x92.3,z[-86.8,-60], then z-86.8,x[69,92.3]. Keep southwest harbor entrance and water z[-85.3,-79.4] unobstructed. Shorework region x50..93,z[-58.7,-38]; leave road clearance width/2+0.35 and open apron routes between road endpoint(62,-55), piers and slipway. Parent blockouts disappear upon registered child ids harbor-fleet_ and harbor-shoreworks_. Each module is auto-composed: do not call child builds from another module.",
+  "by": "harbor"
+ },
+ "central-village-construction": {
+  "owner": "central-village",
+  "version": 1,
+  "spec": "Version 1, owner central-village. modules/central-village.js exports villagePairs (five child IDs mapped to 1-based central-village lot numbers), laneClear(x,z,margin=0) using root roadNetwork, and optional createVillageKit(THREE,parentGroup). Kit returns material(color), mesh(geometry,mat,x,y,z,group), box(x,y,z,w,h,d,mat,group), cylinder(x,y,z,rt,rb,h,mat,segments,group), beam([x,y,z],[x,y,z],width,mat,group,depth), roof({x,y,z,w,d,rise=2.1,axis=\"z\",tileColor,gableColor}), foundation(x,z,w,d,top), fence([x,z],[x,z],h=1), lantern(x,z,scale=1), wood/dark/stone materials. All dimensions metres; boxes/cylinders CENTERED at y. roof y is eave plane; roof width w is cross-ridge and depth d along-ridge; axis x rotates the whole assembly by 90 degrees. Roof gables inset 0.52m from ridge ends and 0.62m from cross-ridge eaves; align house wall dimensions or add your own gables. Roof includes solid backing strips, roll tiles, course lips, ridge caps, bargeboards, gables, rafters. foundation makes sampled perimeter stone courses and a top cap; top must be above the highest edge sample. Kit is optional, children own complete architecture and yards. Pair ownership south lots1/2 z-48; market3/4 z-33; tea5/6 z-10; gardens7/8 z6; north9/10 z22. Exactly 3 cherries allocated south1/tea1/north1 and 2 small pines gardens1/north1. Parent owns lanterns centered (-20.45,-40.5),(-14.6,-19.3),(-20.4,-2),(-14.6,14); children do not change these. Root lane clearance width/2+0.35m is fixed. Parent provisional pair geometry disappears on object IDs beginning exact child ID + underscore. Do not modify the parent module or other pair modules.",
+  "by": "central-village"
+ }
+}

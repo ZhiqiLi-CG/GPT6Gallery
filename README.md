@@ -19,6 +19,7 @@ python3 -m http.server 8080      # then open http://localhost:8080/
 | id | scene | modules |
 |---|---|---|
 | `japanese-island-town` | a small Japanese island town, condition "detail: high" — 39 tasks, 5 levels | 39 |
+| `japanese-island-town-wide` | the same island town, root split into nine districts with the depth cap at 7 — 31 tasks, 3 levels, 1841 objects | 31 |
 | `riverside-village` | a riverside village with a mill, a bridge and a harbor — 27 tasks, 4 levels | 27 |
 | `medieval-village` | a medieval village — 4 tasks | 4 |
 | `japanese-island-town-v1` | the same island town, first run without the detail condition — 5 tasks | 5 |

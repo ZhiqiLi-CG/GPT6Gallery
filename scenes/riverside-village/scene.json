@@ -1,0 +1,160 @@
+{
+ "id": "riverside-village",
+ "title": "Riverside village",
+ "prompt": "A riverside village: a wide river running east to west, a stone bridge, a mill with a water wheel, wooden docks with small boats, houses and barns on both banks, a road along the north bank leading to a small chapel, reed beds and willows by the water, meadows behind.",
+ "conditions": null,
+ "bounds": [
+  -150.0,
+  -150.0,
+  150.0,
+  150.0
+ ],
+ "y": [
+  -30.0,
+  120.0
+ ],
+ "modules": [
+  "root.js",
+  "south-bank.js",
+  "waterfront.js",
+  "south-central-farms.js",
+  "crossing-mill-bridge.js",
+  "south-east-farm.js",
+  "south-west-farms.js",
+  "north-east.js",
+  "north-chapel.js",
+  "north-west.js",
+  "crossing-mill-mill.js",
+  "crossing-mill.js",
+  "south-central-cottage.js",
+  "south-central-west.js",
+  "south-central-east.js",
+  "waterfront-landings.js",
+  "sw-orchard-farm.js",
+  "sw-riverside-cottages.js",
+  "sw-paddock-farm.js",
+  "north-east-riverside.js",
+  "north-east-roadside.js",
+  "north-east-farm.js",
+  "north-west-street.js",
+  "waterfront-riparian.js",
+  "north-west-farm.js",
+  "north-west-riverside.js",
+  "north-bank.js"
+ ],
+ "cameras": {
+  "village": {
+   "position": [
+    230,
+    210,
+    -285
+   ],
+   "target": [
+    0,
+    4,
+    8
+   ],
+   "fov": 46
+  },
+  "north": {
+   "position": [
+    0,
+    180,
+    310
+   ],
+   "target": [
+    0,
+    4,
+    0
+   ],
+   "fov": 48
+  },
+  "south": {
+   "position": [
+    0,
+    180,
+    -310
+   ],
+   "target": [
+    0,
+    4,
+    0
+   ],
+   "fov": 48
+  },
+  "east": {
+   "position": [
+    325,
+    190,
+    0
+   ],
+   "target": [
+    0,
+    4,
+    0
+   ],
+   "fov": 48
+  },
+  "west": {
+   "position": [
+    -325,
+    190,
+    0
+   ],
+   "target": [
+    0,
+    4,
+    0
+   ],
+   "fov": 48
+  },
+  "crossing": {
+   "position": [
+    -96,
+    70,
+    -113
+   ],
+   "target": [
+    -22,
+    5,
+    0
+   ],
+   "fov": 44
+  },
+  "mill-docks": {
+   "position": [
+    119,
+    62,
+    65
+   ],
+   "target": [
+    57,
+    5,
+    -29
+   ],
+   "fov": 45
+  },
+  "chapel": {
+   "position": [
+    164,
+    65,
+    27
+   ],
+   "target": [
+    99,
+    8,
+    88
+   ],
+   "fov": 47
+  }
+ },
+ "stats": {
+  "tasks": 27,
+  "levels": 4,
+  "sessions": 42,
+  "tokens_M": 2.97,
+  "wall_min": 66,
+  "objects": 123
+ },
+ "model": "gpt-6-astra (reasoning: high)"
+}

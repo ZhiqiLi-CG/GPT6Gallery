@@ -1,0 +1,17 @@
+{
+ "text": "A medieval village in a green plain: a cluster of half-timbered houses with tiled roofs around a market square with a well, a stone church, a windmill on a low hill, farm fields and orchards with fences, a stream with a wooden bridge, dirt roads connecting the farms to the square, trees and hedges.",
+ "image": null,
+ "bounds": [
+  -150.0,
+  -150.0,
+  150.0,
+  150.0
+ ],
+ "y": [
+  -30.0,
+  120.0
+ ],
+ "workers": 10,
+ "max_depth": 4,
+ "max_cycles": 3
+}

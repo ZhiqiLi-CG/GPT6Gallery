@@ -1,0 +1,124 @@
+{
+ "id": "medieval-village",
+ "title": "Medieval village",
+ "prompt": "A medieval village in a green plain: a cluster of half-timbered houses with tiled roofs around a market square with a well, a stone church, a windmill on a low hill, farm fields and orchards with fences, a stream with a wooden bridge, dirt roads connecting the farms to the square, trees and hedges.",
+ "conditions": null,
+ "bounds": [
+  -150.0,
+  -150.0,
+  150.0,
+  150.0
+ ],
+ "y": [
+  -30.0,
+  120.0
+ ],
+ "modules": [
+  "root.js",
+  "landmarks.js",
+  "farms.js",
+  "village.js"
+ ],
+ "cameras": {
+  "south": {
+   "position": [
+    0,
+    205,
+    -310
+   ],
+   "target": [
+    0,
+    3,
+    0
+   ],
+   "fov": 49
+  },
+  "north": {
+   "position": [
+    0,
+    205,
+    310
+   ],
+   "target": [
+    0,
+    3,
+    0
+   ],
+   "fov": 49
+  },
+  "east": {
+   "position": [
+    310,
+    205,
+    0
+   ],
+   "target": [
+    0,
+    3,
+    0
+   ],
+   "fov": 49
+  },
+  "west": {
+   "position": [
+    -310,
+    205,
+    0
+   ],
+   "target": [
+    0,
+    3,
+    0
+   ],
+   "fov": 49
+  },
+  "market": {
+   "position": [
+    -88,
+    67,
+    -106
+   ],
+   "target": [
+    -24,
+    5,
+    -5
+   ],
+   "fov": 46
+  },
+  "crossing": {
+   "position": [
+    104,
+    51,
+    -86
+   ],
+   "target": [
+    48,
+    2,
+    -22
+   ],
+   "fov": 47
+  },
+  "village": {
+   "position": [
+    -200,
+    180,
+    -260
+   ],
+   "target": [
+    -8,
+    3,
+    5
+   ],
+   "fov": 48
+  }
+ },
+ "stats": {
+  "tasks": 4,
+  "levels": 2,
+  "sessions": 5,
+  "tokens_M": 0.44,
+  "wall_min": 24,
+  "objects": 55
+ },
+ "model": "gpt-6-astra (reasoning: high)"
+}

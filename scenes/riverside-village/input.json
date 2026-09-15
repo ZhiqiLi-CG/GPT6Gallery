@@ -1,0 +1,17 @@
+{
+ "text": "A riverside village: a wide river running east to west, a stone bridge, a mill with a water wheel, wooden docks with small boats, houses and barns on both banks, a road along the north bank leading to a small chapel, reed beds and willows by the water, meadows behind.",
+ "image": null,
+ "bounds": [
+  -150.0,
+  -150.0,
+  150.0,
+  150.0
+ ],
+ "y": [
+  -30.0,
+  120.0
+ ],
+ "workers": 4,
+ "max_depth": 4,
+ "max_cycles": 3
+}

@@ -1,0 +1,177 @@
+{
+ "id": "japanese-island-town-v1",
+ "title": "Japanese island town (first run)",
+ "prompt": "A small Japanese island town: wooden houses with tiled roofs along narrow streets, a temple with a pagoda on the hill, a torii gate by the shore, a fishing harbor with boats and drying racks, rice terraces, cherry and pine trees, stone lanterns and a small bridge over a stream.",
+ "conditions": null,
+ "bounds": [
+  -150.0,
+  -150.0,
+  150.0,
+  150.0
+ ],
+ "y": [
+  -30.0,
+  120.0
+ ],
+ "modules": [
+  "root.js",
+  "sacred.js",
+  "harbor.js",
+  "rural.js",
+  "town.js"
+ ],
+ "cameras": {
+  "south": {
+   "position": [
+    15,
+    180,
+    -295
+   ],
+   "target": [
+    0,
+    7,
+    0
+   ],
+   "fov": 48
+  },
+  "north": {
+   "position": [
+    10,
+    190,
+    300
+   ],
+   "target": [
+    0,
+    8,
+    0
+   ],
+   "fov": 48
+  },
+  "east": {
+   "position": [
+    300,
+    180,
+    5
+   ],
+   "target": [
+    0,
+    8,
+    0
+   ],
+   "fov": 48
+  },
+  "west": {
+   "position": [
+    -300,
+    180,
+    5
+   ],
+   "target": [
+    0,
+    8,
+    0
+   ],
+   "fov": 48
+  },
+  "town-close": {
+   "position": [
+    -111,
+    90,
+    -138
+   ],
+   "target": [
+    -30,
+    7,
+    -25
+   ],
+   "fov": 44
+  },
+  "harbor-close": {
+   "position": [
+    148,
+    90,
+    -164
+   ],
+   "target": [
+    70,
+    3,
+    -70
+   ],
+   "fov": 43
+  },
+  "temple-close": {
+   "position": [
+    -126,
+    110,
+    -35
+   ],
+   "target": [
+    -46,
+    28,
+    54
+   ],
+   "fov": 43
+  },
+  "rice-close": {
+   "position": [
+    170,
+    116,
+    128
+   ],
+   "target": [
+    70,
+    12,
+    50
+   ],
+   "fov": 43
+  },
+  "hero": {
+   "position": [
+    -241,
+    220,
+    -294
+   ],
+   "target": [
+    0,
+    11,
+    0
+   ],
+   "fov": 30
+  },
+  "bridge-close": {
+   "position": [
+    7,
+    35,
+    -48
+   ],
+   "target": [
+    36,
+    5,
+    -15
+   ],
+   "fov": 45
+  },
+  "shore-close": {
+   "position": [
+    -91,
+    34,
+    -116
+   ],
+   "target": [
+    -61,
+    5,
+    -80
+   ],
+   "fov": 43
+  }
+ },
+ "stats": {
+  "tasks": 5,
+  "levels": 2,
+  "sessions": 8,
+  "tokens_M": 0.77,
+  "wall_min": 27,
+  "objects": 89
+ },
+ "model": "gpt-6-astra (reasoning: high)"
+}

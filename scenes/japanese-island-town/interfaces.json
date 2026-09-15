@@ -1,0 +1,147 @@
+{
+ "brief": {
+  "owner": "root",
+  "version": 3,
+  "spec": "A compact, inhabited Japanese island fishing town, approximately 240 metres across, with 36 timber homes and small shops packed along three east-west lanes and two connecting lanes in the southwest. Each house has a full tiled gable or hip roof with ridge caps and repeated tile texture, timber framing, plaster or boarded walls, real doors and windows/shoji, eaves, foundations fitted to the ground, plus a tiny worked yard with fencing, pots, baskets, firewood or laundry. The southeast harbor has stone quays and breakwaters enclosing water, timber piers on piles, several recognizably curved fishing boats with interiors and gear, fish drying racks, nets, floats, barrels and warehouses. A northwestern hill supports a complete timber Buddhist temple courtyard and a multi-tier pagoda with curved tiled roofs, stairs, walls, stone lanterns, bell pavilion, cherry trees and pines. Northeastern stepped rice paddies have retaining walls, water, hundreds of rice tufts in planted rows, irrigation sluices and a working farmstead. A winding rocky stream crosses the island and passes under a small railed timber bridge; a vermilion torii marks the southwest rocky shore. Relief, continuous sea, uneven rocky/sandy banks, wooded northern margins, paths and diverse everyday details join these districts. Style: cohesive finely modeled miniature realism, muted warm wood, grey-blue ceramic tiles, mossy stone, soft pink blossoms, deep green shaped pines and blue-green water. No floating objects, incomplete shells or untextured placeholder masses in the final composition.",
+  "by": "root"
+ },
+ "conventions": {
+  "owner": "root",
+  "version": 3,
+  "spec": "Metres, +x east, +z north, +y up. All build(THREE,ctx) return Object3D already in world coordinates. Import shared functions from ./root.js; never copy terrain or layout formulas. Deterministic procedural geometry, muted detailed miniature realism. Root owns the island terrain, sea, rocky shore, stream, bridge, southwest torii, outside-district trees and public paths. District children own all detail inside their assigned region except these shared root structures.",
+  "by": "root"
+ },
+ "terrain": {
+  "owner": "root",
+  "version": 3,
+  "spec": "modules/root.js exports heightAt(x,z), streamAt(z), islandRadius(x,z), coastRadius(angle). Sea y=-0.05, harbor boating water y=0. Terrain irregular ellipse center (0,6), radii119/118, inhabited 240m island. heightAt is the exact rendered vertex surface to ~1.5m sampling; foundations must extend down to lowest corner and floor above highest. Temple pad x[-60,-10],z[32,78] y21.75. Rice interior x[36,88-3*i],z[14+10*i,24+10*i], six stepped beds y5.75+1.5*i; layout() gives each. Harbor basin excavated at x(34,107),z<-66 to y-2; quay land north of z-66. Stream from z88 to-112 centered streamAt(z).x; reserve +/-4m on either bank. Root owns all terrain, water and bridge. The temple pad blends through a 10m graded shoulder outside its rectangle. The sea background continues to the horizon; its object bbox records the local open-water extent. Final landscape includes a rock-lined stream source at z87, coastal understory and a managed pine/cherry grove between harbor and farms. Harbor basin is excluded from original-shore stones/foam. The heightAt formula and all child ground elevations are unchanged from the published child build baseline.",
+  "by": "root"
+ },
+ "roads": {
+  "owner": "root",
+  "version": 3,
+  "spec": "modules/root.js exports roadNetwork(): array of {id,width,points:[[x,z],...]}. Root renders terrain-following ochre gravel paths. Three market lanes z=-54,-22,8 through west-town, north-south lanes x=-55,-19. Width3 to4.2m. Do not put walls or trees on roads. Middle lane crosses stream at z-22 with root timber bridge. Temple hill path approaches west at (-57,57); entry also from south. Harbor approach follows z-62, rice path x33. Add minor local paths only in owned district. Final continuity: market-middle extends from (56,-2) to (65,12) to join the farm lane. Root supplies railed timber crossings at the market-south and market-north stream intersections; the middle crossing is the vermilion arched bridge. Road meshes interpolate root terrain triangles for a continuous visible surface. No child road-edge property was moved.",
+  "by": "root"
+ },
+ "layout": {
+  "owner": "root",
+  "version": 3,
+  "spec": "modules/root.js exports layout(): exact town parcel coordinates, temple pad/hall/pagoda/entry, harbor quay and water, six tapering rice levels, main bridge and shore torii. All four district children are delivered; root temporary mass geometry is retired. Child completion-kind records remain district-town-built, district-temple-built, district-harbor-built and district-rice-built. Modules import shared functions and all objects retain their originating task ownership.",
+  "by": "root"
+ },
+ "cameras": {
+  "owner": "root",
+  "version": 3,
+  "spec": {
+   "file": "world/cameras.json",
+   "views": {
+    "south": {
+     "position": [
+      165,
+      150,
+      -235
+     ],
+     "target": [
+      0,
+      8,
+      2
+     ],
+     "fov": 48
+    },
+    "north": {
+     "position": [
+      -155,
+      157,
+      244
+     ],
+     "target": [
+      0,
+      9,
+      3
+     ],
+     "fov": 48
+    },
+    "east": {
+     "position": [
+      275,
+      157,
+      12
+     ],
+     "target": [
+      0,
+      8,
+      6
+     ],
+     "fov": 48
+    },
+    "west": {
+     "position": [
+      -275,
+      157,
+      12
+     ],
+     "target": [
+      0,
+      8,
+      6
+     ],
+     "fov": 48
+    },
+    "town-close": {
+     "position": [
+      -107,
+      48,
+      -111
+     ],
+     "target": [
+      -39,
+      5,
+      -30
+     ],
+     "fov": 49
+    },
+    "harbor-close": {
+     "position": [
+      127,
+      58,
+      -143
+     ],
+     "target": [
+      67,
+      3,
+      -72
+     ],
+     "fov": 48
+    },
+    "temple-close": {
+     "position": [
+      -90,
+      60,
+      1
+     ],
+     "target": [
+      -35,
+      27,
+      56
+     ],
+     "fov": 47
+    },
+    "rice-close": {
+     "position": [
+      120,
+      67,
+      -2
+     ],
+     "target": [
+      63,
+      11,
+      48
+     ],
+     "fov": 48
+    }
+   },
+   "purpose": "Four compass views and four closeups. Use named cameras for visibility evaluation; no reference image."
+  },
+  "by": "root"
+ }
+}

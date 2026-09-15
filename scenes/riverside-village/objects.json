@@ -1,0 +1,1601 @@
+{
+ "crossing-mill-bridge_arch_1": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   1.05,
+   -29.67,
+   -18.22,
+   6.8,
+   -18.33
+  ],
+  "kind": "open elliptical stone barrel with dressed voussoirs and coursed spandrels",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_arch_2": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   1.05,
+   -17.67,
+   -18.22,
+   6.8,
+   -6.33
+  ],
+  "kind": "open elliptical stone barrel with dressed voussoirs and coursed spandrels",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_arch_3": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   1.05,
+   -5.67,
+   -18.22,
+   6.8,
+   5.67
+  ],
+  "kind": "open elliptical stone barrel with dressed voussoirs and coursed spandrels",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_arch_4": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   1.05,
+   6.33,
+   -18.22,
+   6.8,
+   17.67
+  ],
+  "kind": "open elliptical stone barrel with dressed voussoirs and coursed spandrels",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_arch_5": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   1.05,
+   18.33,
+   -18.22,
+   6.8,
+   29.67
+  ],
+  "kind": "open elliptical stone barrel with dressed voussoirs and coursed spandrels",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_pier_1": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   -3.9,
+   -31,
+   -18.22,
+   6.8,
+   -29
+  ],
+  "kind": "bank abutment",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_pier_2": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   -3.9,
+   -19,
+   -18.22,
+   6.8,
+   -17
+  ],
+  "kind": "founded masonry pier",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_pier_3": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   -3.9,
+   -7,
+   -18.22,
+   6.8,
+   -5
+  ],
+  "kind": "founded masonry pier",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_pier_4": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   -3.9,
+   5,
+   -18.22,
+   6.8,
+   7
+  ],
+  "kind": "founded masonry pier",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_pier_5": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   -3.9,
+   17,
+   -18.22,
+   6.8,
+   19
+  ],
+  "kind": "founded masonry pier",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_pier_6": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   -3.9,
+   29,
+   -18.22,
+   6.8,
+   31
+  ],
+  "kind": "bank abutment",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_cutwater_1_west": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -27.6,
+   -3.9,
+   -19,
+   -25.6,
+   3.5,
+   -17
+  ],
+  "kind": "pointed stone cutwater with pitched cap and waterline courses",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_cutwater_1_east": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -18.4,
+   -3.9,
+   -19,
+   -16.4,
+   3.5,
+   -17
+  ],
+  "kind": "pointed stone cutwater with pitched cap and waterline courses",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_cutwater_2_west": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -27.6,
+   -3.9,
+   -7,
+   -25.6,
+   3.5,
+   -5
+  ],
+  "kind": "pointed stone cutwater with pitched cap and waterline courses",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_cutwater_2_east": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -18.4,
+   -3.9,
+   -7,
+   -16.4,
+   3.5,
+   -5
+  ],
+  "kind": "pointed stone cutwater with pitched cap and waterline courses",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_cutwater_3_west": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -27.6,
+   -3.9,
+   5,
+   -25.6,
+   3.5,
+   7
+  ],
+  "kind": "pointed stone cutwater with pitched cap and waterline courses",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_cutwater_3_east": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -18.4,
+   -3.9,
+   5,
+   -16.4,
+   3.5,
+   7
+  ],
+  "kind": "pointed stone cutwater with pitched cap and waterline courses",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_cutwater_4_west": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -27.6,
+   -3.9,
+   17,
+   -25.6,
+   3.5,
+   19
+  ],
+  "kind": "pointed stone cutwater with pitched cap and waterline courses",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_cutwater_4_east": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -18.4,
+   -3.9,
+   17,
+   -16.4,
+   3.5,
+   19
+  ],
+  "kind": "pointed stone cutwater with pitched cap and waterline courses",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_road_deck": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.6,
+   4.1,
+   -39,
+   -18.4,
+   7.1,
+   39
+  ],
+  "kind": "continuous stone deck and worn gravel carriageway tapering to shared six metre roads",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_south_approach": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   -0.5,
+   -39,
+   -18.22,
+   7.1,
+   -31
+  ],
+  "kind": "bank-founded smooth road approach and masonry retaining sides",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_north_approach": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.78,
+   -0.5,
+   31,
+   -18.22,
+   7.1,
+   39
+  ],
+  "kind": "bank-founded smooth road approach and masonry retaining sides",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_west_parapet": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -25.810000000000002,
+   4.1,
+   -39.02,
+   -24.93,
+   8.3,
+   39
+  ],
+  "kind": "coursed parapet with coping, tapered ends, dressed terminal posts and drains",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "crossing-mill-bridge_east_parapet": {
+  "task": "crossing-mill-bridge",
+  "bbox": [
+   -19.07,
+   4.1,
+   -39.02,
+   -18.189999999999998,
+   8.3,
+   39
+  ],
+  "kind": "coursed parapet with coping, tapered ends, dressed terminal posts and drains",
+  "module": "modules/crossing-mill-bridge.js"
+ },
+ "south-east-farm_cottage-west": {
+  "task": "south-east-farm",
+  "bbox": [
+   80.3,
+   3,
+   -81.2,
+   91.7,
+   19,
+   -65
+  ],
+  "kind": "complete plaster cottage with pitched roof, chimney, shutters, stone foundation and entrance steps",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_cottage-east": {
+  "task": "south-east-farm",
+  "bbox": [
+   104.8,
+   3,
+   -91.2,
+   117.2,
+   20,
+   -75
+  ],
+  "kind": "complete slate-roof cottage with detailed windows, shutters and entrance",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_barn": {
+  "task": "south-east-farm",
+  "bbox": [
+   90.3,
+   4,
+   -125.2,
+   105.7,
+   25,
+   -101
+  ],
+  "kind": "full timber barn with double doors, gables, ridge and stone foundation",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_stable": {
+  "task": "south-east-farm",
+  "bbox": [
+   118.3,
+   4,
+   -108.2,
+   127.7,
+   20,
+   -92
+  ],
+  "kind": "complete stable with chimney, shutters, braced door and doorstep",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_shed": {
+  "task": "south-east-farm",
+  "bbox": [
+   79.3,
+   4,
+   -112.2,
+   86.7,
+   19,
+   -98
+  ],
+  "kind": "complete pitched-roof storage shed",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_circulation": {
+  "task": "south-east-farm",
+  "bbox": [
+   72,
+   3,
+   -139,
+   131,
+   18,
+   -57
+  ],
+  "kind": "ground-following farmyard and connected garden, stable, barn, orchard, paddock, lane and landing paths",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_kitchen-garden": {
+  "task": "south-east-farm",
+  "bbox": [
+   60.8,
+   3,
+   -90.3,
+   77,
+   10,
+   -69.8
+  ],
+  "kind": "three cultivated vegetable beds with crop rows, fence and braced gate",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_paddock": {
+  "task": "south-east-farm",
+  "bbox": [
+   45.8,
+   3,
+   -139.3,
+   76.3,
+   18,
+   -97.8
+  ],
+  "kind": "ground-following fenced grazing paddock, braced gate, twelve sheep and filled stone trough",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_orchard": {
+  "task": "south-east-farm",
+  "bbox": [
+   125.8,
+   4,
+   -140.5,
+   148.5,
+   23,
+   -110.5
+  ],
+  "kind": "nine branching fruit trees with instanced crowns and fruit",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_storage": {
+  "task": "south-east-farm",
+  "bbox": [
+   78.8,
+   4,
+   -126,
+   93,
+   20,
+   -108.5
+  ],
+  "kind": "three haystacks and covered stacked firewood",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_yard-equipment": {
+  "task": "south-east-farm",
+  "bbox": [
+   87.5,
+   3,
+   -100,
+   122,
+   15,
+   -67
+  ],
+  "kind": "four-wheel wagon with spokes and shafts, barrels and filled stable trough",
+  "module": "modules/south-east-farm.js"
+ },
+ "south-east-farm_meadow-margins": {
+  "task": "south-east-farm",
+  "bbox": [
+   39.7,
+   3,
+   -149,
+   149.9,
+   23,
+   -70
+  ],
+  "kind": "terrain-following grass texture and irregular hedgerow field edges",
+  "module": "modules/south-east-farm.js"
+ },
+ "north-chapel_ensemble": {
+  "task": "north-chapel",
+  "bbox": [
+   101.4,
+   4.5,
+   83.4,
+   134.6,
+   30,
+   118.6
+  ],
+  "kind": "Complete stone chapel, pitched slate roof, open arched bell tower with suspended bell and cross, grounded foundations, entrance steps, enclosed churchyard with approach-aligned open gate, nine grave plots, paths, bench and two yews",
+  "module": "modules/north-chapel.js"
+ },
+ "crossing-mill-mill_building": {
+  "task": "crossing-mill-mill",
+  "bbox": [
+   46.1,
+   1,
+   -43.1,
+   63.9,
+   20.3,
+   -28.1
+  ],
+  "kind": "founded masonry and timber plaster mill, complete slate roof, chimney, framed windows, grain doors and loft hoist",
+  "module": "modules/crossing-mill-mill.js"
+ },
+ "crossing-mill-mill_waterwheel": {
+  "task": "crossing-mill-mill",
+  "bbox": [
+   49.8,
+   -4,
+   -29.8,
+   60.2,
+   10.9,
+   -20.5
+  ],
+  "kind": "radius 5.1 north-facing wooden wheel, twin rims, paired spokes, paddles, hub, axle and founded bearings",
+  "module": "modules/crossing-mill-mill.js"
+ },
+ "crossing-mill-mill_millrace": {
+  "task": "crossing-mill-mill",
+  "bbox": [
+   44.8,
+   -4,
+   -25.1,
+   74.3,
+   4.95,
+   -20
+  ],
+  "kind": "open masonry water race with east inlet, adjustable sluice gate, inspection footboard, water contact and west outlet",
+  "module": "modules/crossing-mill-mill.js"
+ },
+ "crossing-mill-mill_yard_surfaces": {
+  "task": "crossing-mill-mill",
+  "bbox": [
+   40,
+   3.5,
+   -60,
+   78,
+   5,
+   -39
+  ],
+  "kind": "terrain-following mill yard, grain door approach, access across south lane and instanced gravel",
+  "module": "modules/crossing-mill-mill.js"
+ },
+ "crossing-mill-mill_yard_stores": {
+  "task": "crossing-mill-mill",
+  "bbox": [
+   41.4,
+   3.7,
+   -60,
+   75.8,
+   6.7,
+   -52
+  ],
+  "kind": "tied grain sacks and pallet, hooped barrels and timber stacks on bearers",
+  "module": "modules/crossing-mill-mill.js"
+ },
+ "crossing-mill-mill_cart": {
+  "task": "crossing-mill-mill",
+  "bbox": [
+   53.6,
+   3.7,
+   -57.2,
+   56.8,
+   6.9,
+   -50.9
+  ],
+  "kind": "four-wheel spoked grain cart with plank bed, side rails, draw shafts and sacks",
+  "module": "modules/crossing-mill-mill.js"
+ },
+ "crossing-mill-mill_work_shelter": {
+  "task": "crossing-mill-mill",
+  "bbox": [
+   67.7,
+   3.6,
+   -60.1,
+   76.5,
+   10.1,
+   -53.6
+  ],
+  "kind": "braced open timber shelter with complete roof, workbench, stored blocks, tools and yard millstone",
+  "module": "modules/crossing-mill-mill.js"
+ },
+ "south-central-cottage_holding": {
+  "task": "south-central-cottage",
+  "bbox": [
+   -1.145,
+   2.829,
+   -50.889,
+   33.57,
+   14.046,
+   -32.145
+  ],
+  "kind": "complete grounded riverside cottage with tiled pitched roof, chimney, shuttered casements, south entrance and lane path, gravel domestic court, stocked timber woodshed, gated three-bed kitchen garden and domestic props",
+  "module": "modules/south-central-cottage.js"
+ },
+ "south-central-west_house": {
+  "task": "south-central-west",
+  "bbox": [
+   -12.8,
+   4,
+   -83.2,
+   -1.2,
+   17,
+   -70.1
+  ],
+  "kind": "grounded plaster farmhouse with masonry foundation, pitched tile roof, ridge, eaves, shuttered windows, braced door, stone steps and chimney",
+  "module": "modules/south-central-west.js"
+ },
+ "south-central-west_barn": {
+  "task": "south-central-west",
+  "bbox": [
+   -34.2,
+   4,
+   -114.7,
+   -19.8,
+   21,
+   -94.5
+  ],
+  "kind": "full timber barn with masonry footing, boarded walls, slate roof, loft opening, double doors and entrance steps",
+  "module": "modules/south-central-west.js"
+ },
+ "south-central-west_stable": {
+  "task": "south-central-west",
+  "bbox": [
+   -9.7,
+   4,
+   -98.7,
+   -1.3,
+   15,
+   -88.5
+  ],
+  "kind": "small enclosed timber stable with tiled gable roof, loft opening and braced doors",
+  "module": "modules/south-central-west.js"
+ },
+ "south-central-west_court_access": {
+  "task": "south-central-west",
+  "bbox": [
+   -37.3,
+   3,
+   -123,
+   1.1,
+   12,
+   -55
+  ],
+  "kind": "fenced gravel working court, open gate and ground-following paths to parent road mouth, buildings, garden and livestock gate",
+  "module": "modules/south-central-west.js"
+ },
+ "south-central-west_garden": {
+  "task": "south-central-west",
+  "bbox": [
+   -13.8,
+   4,
+   -119.2,
+   -0.1,
+   12,
+   -101.8
+  ],
+  "kind": "enclosed kitchen garden with five planted vegetable beds, soil ridges, walking rows and open side entrance",
+  "module": "modules/south-central-west.js"
+ },
+ "south-central-west_orchard": {
+  "task": "south-central-west",
+  "bbox": [
+   -37.7,
+   4,
+   -87,
+   -1.2,
+   13,
+   -60
+  ],
+  "kind": "seven branched fruit trees with layered crowns and fruit, over textured grass",
+  "module": "modules/south-central-west.js"
+ },
+ "south-central-west_paddock": {
+  "task": "south-central-west",
+  "bbox": [
+   -40.2,
+   5,
+   -146.2,
+   -3.8,
+   15,
+   -121.8
+  ],
+  "kind": "ground-following rail enclosure with open gate, meadow tufts, six sheep, stone water trough and pump",
+  "module": "modules/south-central-west.js"
+ },
+ "south-central-west_working_equipment": {
+  "task": "south-central-west",
+  "bbox": [
+   -37.3,
+   4,
+   -109.8,
+   1.95,
+   13,
+   -83.7
+  ],
+  "kind": "four-wheel planked wagon with spokes and shafts, bound hay bales, stacked firewood under shelter and banded barrels",
+  "module": "modules/south-central-west.js"
+ },
+ "south-central-west_meadow_detail": {
+  "task": "south-central-west",
+  "bbox": [
+   -42.2,
+   4,
+   -148.2,
+   2.2,
+   17,
+   -57.8
+  ],
+  "kind": "scattered instanced grass tufts, flowers and court gravel around the holding",
+  "module": "modules/south-central-west.js"
+ },
+ "south-central-east_house": {
+  "task": "south-central-east",
+  "bbox": [
+   11.4,
+   4,
+   -85.4,
+   22.6,
+   18,
+   -70.6
+  ],
+  "kind": "complete plaster and timber farmhouse with grounded foundation, tiled pitched roof, ridge, eaves, chimney, shuttered glazing, two doors and steps",
+  "module": "modules/south-central-east.js"
+ },
+ "south-central-east_barn": {
+  "task": "south-central-east",
+  "bbox": [
+   10,
+   5,
+   -123.4,
+   24,
+   24,
+   -98.6
+  ],
+  "kind": "boarded barn with grounded stone foundation, pitched tiled roof, ridge and eaves, braced double doors, loft vent and threshold ramps",
+  "module": "modules/south-central-east.js"
+ },
+ "south-central-east_shelter": {
+  "task": "south-central-east",
+  "bbox": [
+   29,
+   6,
+   -117.6,
+   36,
+   16,
+   -106.4
+  ],
+  "kind": "posted livestock and hay shelter with rear and end walls, sloping roof, locally grounded hay bales and farm tool",
+  "module": "modules/south-central-east.js"
+ },
+ "south-central-east_court": {
+  "task": "south-central-east",
+  "bbox": [
+   6.8,
+   4,
+   -104.2,
+   36.2,
+   12,
+   -85.8
+  ],
+  "kind": "enclosed working court with cart and pedestrian openings, cobbles, four-wheel plank wagon, barrels, sacks and covered firewood stack",
+  "module": "modules/south-central-east.js"
+ },
+ "south-central-east_garden": {
+  "task": "south-central-east",
+  "bbox": [
+   5.6,
+   7,
+   -146.7,
+   15.6,
+   17,
+   -123.8
+  ],
+  "kind": "fenced kitchen garden with four edged beds and 144 vegetable plants",
+  "module": "modules/south-central-east.js"
+ },
+ "south-central-east_paddock": {
+  "task": "south-central-east",
+  "bbox": [
+   20.8,
+   7,
+   -146.7,
+   35.2,
+   18,
+   -123.3
+  ],
+  "kind": "gated paddock with terrain-following rails, six sheep, filled trough and meadow tufts",
+  "module": "modules/south-central-east.js"
+ },
+ "south-central-east_paths_margins": {
+  "task": "south-central-east",
+  "bbox": [
+   5,
+   4,
+   -148,
+   37,
+   18,
+   -55
+  ],
+  "kind": "ground-following entrance and farm paths joining the parent road mouth, grass margins and setback shrubs",
+  "module": "modules/south-central-east.js"
+ },
+ "waterfront-landings_west": {
+  "task": "waterfront-landings",
+  "bbox": [
+   -95.17,
+   -3.37,
+   4.98,
+   -82.83,
+   6.36,
+   31.34
+  ],
+  "kind": "Complete timber landing with planks, girders, bed-founded piles, crossbracing, mooring posts, two secured floating boats, one shore boat on cradles, nets, traps, rope coils, crates and barrels",
+  "module": "modules/waterfront-landings.js"
+ },
+ "waterfront-landings_south": {
+  "task": "waterfront-landings",
+  "bbox": [
+   80.12,
+   -3.96,
+   -34.5,
+   92.57,
+   6.26,
+   -7.14
+  ],
+  "kind": "Complete timber landing with planks, girders, bed-founded piles, crossbracing, mooring posts, two secured floating boats, one shore boat on cradles, nets, traps, rope coils, crates and barrels",
+  "module": "modules/waterfront-landings.js"
+ },
+ "waterfront-landings_east": {
+  "task": "waterfront-landings",
+  "bbox": [
+   9.83,
+   -3.49,
+   17.24,
+   22.17,
+   6.09,
+   38.61
+  ],
+  "kind": "Complete timber landing with planks, girders, bed-founded piles, crossbracing, mooring posts, two secured floating boats, one shore boat on cradles, nets, traps, rope coils, crates and barrels",
+  "module": "modules/waterfront-landings.js"
+ },
+ "sw-orchard-farm_cottage": {
+  "task": "sw-orchard-farm",
+  "bbox": [
+   -115,
+   4,
+   -87,
+   -103,
+   16,
+   -73
+  ],
+  "kind": "full plaster and timber cottage with masonry footings, pitched tiled roof, chimney, shuttered windows and doorstep",
+  "module": "modules/sw-orchard-farm.js"
+ },
+ "sw-orchard-farm_barn": {
+  "task": "sw-orchard-farm",
+  "bbox": [
+   -121,
+   4.8,
+   -121,
+   -105,
+   19,
+   -97
+  ],
+  "kind": "timber orchard barn with full pitched roof, framed loft windows and solid cart entrance ramp",
+  "module": "modules/sw-orchard-farm.js"
+ },
+ "sw-orchard-farm_stable": {
+  "task": "sw-orchard-farm",
+  "bbox": [
+   -113,
+   6.3,
+   -141,
+   -103,
+   21,
+   -126
+  ],
+  "kind": "complete timber stable with loft, chimney, framed windows and solid entrance ramp",
+  "module": "modules/sw-orchard-farm.js"
+ },
+ "sw-orchard-farm_store": {
+  "task": "sw-orchard-farm",
+  "bbox": [
+   -126,
+   5.7,
+   -119,
+   -120,
+   13,
+   -109
+  ],
+  "kind": "covered three dimensional hay and firewood bay with grounded masonry base",
+  "module": "modules/sw-orchard-farm.js"
+ },
+ "sw-orchard-farm_orchard": {
+  "task": "sw-orchard-farm",
+  "bbox": [
+   -149,
+   4,
+   -149,
+   -127,
+   17,
+   -89
+  ],
+  "kind": "two rows of ten branched fruit trees, fruit, meadow understory, harvest baskets, pruning bundles and ladder",
+  "module": "modules/sw-orchard-farm.js"
+ },
+ "sw-orchard-farm_court_and_entrance": {
+  "task": "sw-orchard-farm",
+  "bbox": [
+   -128,
+   4,
+   -145,
+   -102,
+   10,
+   -63
+  ],
+  "kind": "lane connection, open entry gate, working court, worn tracks, stable approach, harvest wagon and tools",
+  "module": "modules/sw-orchard-farm.js"
+ },
+ "sw-orchard-farm_kitchen_garden": {
+  "task": "sw-orchard-farm",
+  "bbox": [
+   -123,
+   4,
+   -87,
+   -115,
+   8,
+   -74
+  ],
+  "kind": "three household vegetable beds with crops and domestic fencing",
+  "module": "modules/sw-orchard-farm.js"
+ },
+ "sw-orchard-farm_livestock_yard": {
+  "task": "sw-orchard-farm",
+  "bbox": [
+   -123,
+   6,
+   -148,
+   -101.7,
+   12,
+   -120
+  ],
+  "kind": "fenced stable yard with genuine gate opening, four sheep and water trough",
+  "module": "modules/sw-orchard-farm.js"
+ },
+ "sw-orchard-farm_boundary_and_meadow": {
+  "task": "sw-orchard-farm",
+  "bbox": [
+   -150,
+   4,
+   -150,
+   -100.5,
+   14,
+   -73
+  ],
+  "kind": "orchard perimeter rails, meadow edge plants and clear internal gate openings",
+  "module": "modules/sw-orchard-farm.js"
+ },
+ "sw-riverside-cottages_domestic_holding": {
+  "task": "sw-riverside-cottages",
+  "bbox": [
+   -120.076,
+   3.761,
+   -58.896,
+   -51.861,
+   13.723,
+   -32.179
+  ],
+  "kind": "Two complete grounded roadside cottages with clay and slate pitched roofs, detailed four-sided elevations and chimneys; two gated domestic gardens with lane and shed paths, five vegetable beds, four fruit trees, enclosed sheds, wash lines, benches, covered firewood, handcarts, barrels, tools, troughs, chickens and instanced flower borders",
+  "module": "modules/sw-riverside-cottages.js"
+ },
+ "south-central-farms_road_mouths": {
+  "task": "south-central-farms",
+  "bbox": [
+   -20.6,
+   3,
+   -55,
+   30.5,
+   7,
+   -47
+  ],
+  "kind": "two permanent ground-following farm entrances linking child paths at x=-19 and x=29, z=-55 to shared south-lane; matched widths and heights, upward-facing surfaces and gently widened junctions",
+  "module": "modules/south-central-farms.js"
+ },
+ "sw-paddock-farm_west_cottage": {
+  "task": "sw-paddock-farm",
+  "bbox": [
+   -87.6,
+   4,
+   -83.6,
+   -76.4,
+   17,
+   -71.4
+  ],
+  "kind": "complete plaster and timber cottage with clay roof, framed shuttered windows, chimney, door and stone steps",
+  "module": "modules/sw-paddock-farm.js"
+ },
+ "sw-paddock-farm_roadside_cottage": {
+  "task": "sw-paddock-farm",
+  "bbox": [
+   -68.2,
+   4,
+   -88.4,
+   -53.8,
+   17,
+   -73.2
+  ],
+  "kind": "9 metre cottage at inherited center, turned parallel to bridge-south to preserve full road shoulder clearance",
+  "module": "modules/sw-paddock-farm.js"
+ },
+ "sw-paddock-farm_barn": {
+  "task": "sw-paddock-farm",
+  "bbox": [
+   -89.1,
+   5,
+   -122.1,
+   -74.9,
+   18,
+   -102.8
+  ],
+  "kind": "13 by 17 metre boarded barn with ground-reaching masonry foundation, slate roof, ridge, eaves, chimney, loft opening and double doors",
+  "module": "modules/sw-paddock-farm.js"
+ },
+ "sw-paddock-farm_stable": {
+  "task": "sw-paddock-farm",
+  "bbox": [
+   -99.1,
+   5,
+   -116.6,
+   -92.9,
+   15,
+   -106.4
+  ],
+  "kind": "full boarded stable with pitched slate roof, chimney, framed window, door and doorstep",
+  "module": "modules/sw-paddock-farm.js"
+ },
+ "sw-paddock-farm_domestic_landscape": {
+  "task": "sw-paddock-farm",
+  "bbox": [
+   -99.6,
+   4,
+   -95,
+   -57,
+   12,
+   -58
+  ],
+  "kind": "ground-following lane entrance and cottage walks, two gated kitchen gardens, fruit trees and flower pots",
+  "module": "modules/sw-paddock-farm.js"
+ },
+ "sw-paddock-farm_working_court": {
+  "task": "sw-paddock-farm",
+  "bbox": [
+   -98.7,
+   4,
+   -122,
+   -72,
+   13,
+   -92
+  ],
+  "kind": "connected worn court, four-wheel wagon, hay bales, barrels, tools, bench and sheltered firewood stacks",
+  "module": "modules/sw-paddock-farm.js"
+ },
+ "sw-paddock-farm_livestock_paddock": {
+  "task": "sw-paddock-farm",
+  "bbox": [
+   -97.2,
+   5,
+   -146.2,
+   -83.7,
+   16,
+   -123.5
+  ],
+  "kind": "two-rail paddock with open gate, seven sheep, hollow water trough, textured grass and founded open-front pitched shelter",
+  "module": "modules/sw-paddock-farm.js"
+ },
+ "sw-paddock-farm_meadow_texture": {
+  "task": "sw-paddock-farm",
+  "bbox": [
+   -99.3,
+   4,
+   -149.1,
+   -45.8,
+   12,
+   -58
+  ],
+  "kind": "instanced meadow tufts and small stones, filtered around buildings, paths and shared road shoulders; sparse east of bridge-south",
+  "module": "modules/sw-paddock-farm.js"
+ },
+ "north-east-riverside_west_holding": {
+  "task": "north-east-riverside",
+  "bbox": [
+   -9.86,
+   3.6,
+   34.83,
+   10.62,
+   12.53,
+   47.09
+  ],
+  "kind": "Complete riverside cottage with solid tiled pitched roof, chimney, four detailed walls, north entrance and court, connected wood store, fenced planted kitchen garden, domestic furnishings and resident",
+  "module": "modules/north-east-riverside.js"
+ },
+ "north-east-riverside_east_holding": {
+  "task": "north-east-riverside",
+  "bbox": [
+   17.83,
+   3.6,
+   37.49,
+   38.82,
+   13.1,
+   49.55
+  ],
+  "kind": "Complete riverside cottage with solid tiled pitched roof, chimney, four detailed walls, north entrance and court, connected wood store, fenced planted kitchen garden, domestic furnishings and resident",
+  "module": "modules/north-east-riverside.js"
+ },
+ "south-bank_landing_access": {
+  "task": "south-bank",
+  "bbox": [
+   80.8,
+   3,
+   -64,
+   83.2,
+   6,
+   -28
+  ],
+  "kind": "continuous ground-following 2.4 metre path connecting the eastern farm approach and shared south lane to the x=82 landing approach",
+  "module": "modules/south-bank.js"
+ },
+ "north-east-roadside_holding_4": {
+  "task": "north-east-roadside",
+  "bbox": [
+   -9.2,
+   3,
+   53.35,
+   12.2,
+   23,
+   91.8
+  ],
+  "kind": "complete inhabited roadside house with solid pitched roof, chimney, all-side windows, grounded foundation, south entrance path, fenced gated yard, shed, vegetable rows, fruit tree, laundry, firewood, barrels and villager",
+  "module": "modules/north-east-roadside.js"
+ },
+ "north-east-roadside_holding_5": {
+  "task": "north-east-roadside",
+  "bbox": [
+   14.8,
+   3,
+   55.3,
+   35.2,
+   23,
+   91.8
+  ],
+  "kind": "complete inhabited roadside house with solid pitched roof, chimney, all-side windows, grounded foundation, south entrance path, fenced gated yard, shed, vegetable rows, fruit tree, laundry, firewood, barrels and villager",
+  "module": "modules/north-east-roadside.js"
+ },
+ "north-east-roadside_holding_6": {
+  "task": "north-east-roadside",
+  "bbox": [
+   40.8,
+   3,
+   58.3,
+   59.2,
+   23,
+   91.8
+  ],
+  "kind": "complete inhabited roadside house with solid pitched roof, chimney, all-side windows, grounded foundation, south entrance path, fenced gated yard, shed, vegetable rows, fruit tree, laundry, firewood, barrels and villager",
+  "module": "modules/north-east-roadside.js"
+ },
+ "north-east-roadside_holding_7": {
+  "task": "north-east-roadside",
+  "bbox": [
+   62.8,
+   3,
+   63,
+   88.2,
+   23,
+   92.6
+  ],
+  "kind": "complete inhabited roadside house with solid pitched roof, chimney, all-side windows, grounded foundation, south entrance path, fenced gated yard, shed, vegetable rows, fruit tree, laundry, firewood, barrels and villager, handcart with crate",
+  "module": "modules/north-east-roadside.js"
+ },
+ "north-east-farm_cottage14": {
+  "task": "north-east-farm",
+  "bbox": [
+   -4.6,
+   5.2,
+   97.7,
+   6.6,
+   17,
+   108.3
+  ],
+  "kind": "complete plaster and timber cottage at northHouses[14], clay roof, chimney, four detailed walls and entrances",
+  "module": "modules/north-east-farm.js"
+ },
+ "north-east-farm_cottage15": {
+  "task": "north-east-farm",
+  "bbox": [
+   23.9,
+   5.5,
+   102.4,
+   36.1,
+   18,
+   113.6
+  ],
+  "kind": "complete sage plaster and timber cottage at northHouses[15], slate roof, chimney, four detailed walls and entrances",
+  "module": "modules/north-east-farm.js"
+ },
+ "north-east-farm_domestic_yards": {
+  "task": "north-east-farm",
+  "bbox": [
+   -9.1,
+   5.2,
+   95.9,
+   45.1,
+   15.5,
+   133.5
+  ],
+  "kind": "two fenced household yards, garden rows, gates, paths, two small storage sheds, firewood, laundry, pots, barrels, benches and inhabitants",
+  "module": "modules/north-east-farm.js"
+ },
+ "north-east-farm_barn1": {
+  "task": "north-east-farm",
+  "bbox": [
+   53.3,
+   6.2,
+   105.5,
+   68.7,
+   21.5,
+   126.7
+  ],
+  "kind": "working timber and stone barn at northBarns[1], complete slate roof, wagon doors, loft openings, beam frame and hoist",
+  "module": "modules/north-east-farm.js"
+ },
+ "north-east-farm_barn_court": {
+  "task": "north-east-farm",
+  "bbox": [
+   46.8,
+   5.7,
+   99,
+   94.2,
+   15,
+   131.3
+  ],
+  "kind": "farm courts, barn pedestrian steps, east stone wagon ramp, connected service tracks, hay storage, sacks, tools, crates, four-wheel wagon and farm life",
+  "module": "modules/north-east-farm.js"
+ },
+ "north-east-farm_paddock": {
+  "task": "north-east-farm",
+  "bbox": [
+   72.8,
+   7.6,
+   120.8,
+   95.1,
+   19,
+   148.2
+  ],
+  "kind": "fenced six-sheep paddock, open gate, water trough and small open timber shelter",
+  "module": "modules/north-east-farm.js"
+ },
+ "north-east-farm_orchard": {
+  "task": "north-east-farm",
+  "bbox": [
+   -9.1,
+   6.8,
+   132.7,
+   48.2,
+   21,
+   149.1
+  ],
+  "kind": "ten branched fruit trees, fences, orchard track, ladder, harvest baskets and meadow texture",
+  "module": "modules/north-east-farm.js"
+ },
+ "north-east-farm_cereal_strip": {
+  "task": "north-east-farm",
+  "bbox": [
+   51.8,
+   10,
+   135.8,
+   69,
+   17,
+   147.3
+  ],
+  "kind": "small rear cereal plot with individual straw stems and soil rows",
+  "module": "modules/north-east-farm.js"
+ },
+ "north-west-street_household_0": {
+  "task": "north-west-street",
+  "bbox": [
+   -126.1,
+   3.8,
+   52.8,
+   -101.9,
+   19.5,
+   85.05
+  ],
+  "kind": "Complete northHouses[0] household: pitched-roof dwelling, chimney, grounded foundation, tool shed, fenced gardens, front and rear gates, paths and domestic furnishings",
+  "module": "modules/north-west-street.js"
+ },
+ "north-west-street_household_1": {
+  "task": "north-west-street",
+  "bbox": [
+   -101.1,
+   3.8,
+   50.5,
+   -79.9,
+   19.5,
+   85.05
+  ],
+  "kind": "Complete northHouses[1] household: pitched-roof dwelling, chimney, grounded foundation, tool shed, fenced gardens, front and rear gates, paths and domestic furnishings",
+  "module": "modules/north-west-street.js"
+ },
+ "north-west-street_household_2": {
+  "task": "north-west-street",
+  "bbox": [
+   -79.1,
+   3.8,
+   48.7,
+   -56.9,
+   19.5,
+   85.05
+  ],
+  "kind": "Complete northHouses[2] household: pitched-roof dwelling, chimney, grounded foundation, tool shed, fenced gardens, front and rear gates, paths and domestic furnishings",
+  "module": "modules/north-west-street.js"
+ },
+ "north-west-street_household_3": {
+  "task": "north-west-street",
+  "bbox": [
+   -56.1,
+   3.8,
+   48.1,
+   -39.9,
+   19.5,
+   85.05
+  ],
+  "kind": "Complete northHouses[3] household: pitched-roof dwelling, chimney, grounded foundation, tool shed, fenced gardens, front and rear gates, paths and domestic furnishings",
+  "module": "modules/north-west-street.js"
+ },
+ "waterfront-riparian_ecosystem": {
+  "task": "waterfront-riparian",
+  "bbox": [
+   -149.373,
+   -0.246,
+   -37.278,
+   149.925,
+   13.908,
+   38.692
+  ],
+  "kind": "Continuous two-bank riparian ecosystem: 21 fully branched weeping willows with hanging leaf curtains, dense irregular cattail/reed beds, shoreline grass clumps and weathered mossy rocks; landing, mill, bridge and cottage clearances preserved",
+  "module": "modules/waterfront-riparian.js"
+ },
+ "north-west-farm_house12": {
+  "task": "north-west-farm",
+  "bbox": [
+   -85.8,
+   4,
+   92.5,
+   -74.2,
+   22,
+   105.8
+  ],
+  "kind": "complete timber and cream plaster farmhouse at northHouses[12], clay roof, chimney, four-sided windows, front and rear doors, stone foundations and steps",
+  "module": "modules/north-west-farm.js"
+ },
+ "north-west-farm_house13": {
+  "task": "north-west-farm",
+  "bbox": [
+   -57.85,
+   4,
+   89.5,
+   -46.15,
+   22,
+   101.3
+  ],
+  "kind": "complete sage plaster and timber house at northHouses[13], slate roof, chimney, four-sided windows, front and rear doors, grounded foundations and steps",
+  "module": "modules/north-west-farm.js"
+ },
+ "north-west-farm_barn0": {
+  "task": "north-west-farm",
+  "bbox": [
+   -125.9,
+   4,
+   91,
+   -109.3,
+   25,
+   120.5
+  ],
+  "kind": "working timber barn at northBarns[0], complete clay roof, wagon and service doors, loft hoist, vents, solid ramp, foundations and ladder",
+  "module": "modules/north-west-farm.js"
+ },
+ "north-west-farm_household12_yard": {
+  "task": "north-west-farm",
+  "bbox": [
+   -97.2,
+   4,
+   85,
+   -65.8,
+   18,
+   129
+  ],
+  "kind": "enclosed household yard, lane access, perimeter paths, two vegetable beds, storage shed, laundry, benches, pots, firewood and gardener",
+  "module": "modules/north-west-farm.js"
+ },
+ "north-west-farm_household13_yard": {
+  "task": "north-west-farm",
+  "bbox": [
+   -64.2,
+   4,
+   85,
+   -39.3,
+   18,
+   126
+  ],
+  "kind": "enclosed household yard, lane access, perimeter paths, kitchen garden, storage shed, laundry, bench, pots, barrel and firewood",
+  "module": "modules/north-west-farm.js"
+ },
+ "north-west-farm_workcourt": {
+  "task": "north-west-farm",
+  "bbox": [
+   -142.2,
+   4,
+   85,
+   -99.8,
+   18,
+   124
+  ],
+  "kind": "fenced barn court and clear south lane connection with open gate, loaded wagon, hay stacks, timber storage shed, rain barrels, workbench, tools and worker",
+  "module": "modules/north-west-farm.js"
+ },
+ "north-west-farm_orchard": {
+  "task": "north-west-farm",
+  "bbox": [
+   -140.5,
+   4,
+   108.5,
+   -49.5,
+   24,
+   149.5
+  ],
+  "kind": "thirteen branched fruit trees in western and rear orchard rows, fruit and planted bases, textured rear meadow grasses",
+  "module": "modules/north-west-farm.js"
+ },
+ "north-west-farm_pasture": {
+  "task": "north-west-farm",
+  "bbox": [
+   -123.2,
+   5,
+   124.8,
+   -100.8,
+   19,
+   146.2
+  ],
+  "kind": "ground-following fenced rear pasture with open gate, eight complete sheep, water trough and meadow surface",
+  "module": "modules/north-west-farm.js"
+ },
+ "north-west-farm_west_boundary": {
+  "task": "north-west-farm",
+  "bbox": [
+   -142.2,
+   4,
+   88,
+   -141.8,
+   20,
+   145.2
+  ],
+  "kind": "western timber farm boundary continuing beside orchard and workcourt",
+  "module": "modules/north-west-farm.js"
+ },
+ "north-west-riverside_holding_8": {
+  "task": "north-west-riverside",
+  "bbox": [
+   -120.075,
+   3.908,
+   29.125,
+   -93.925,
+   12.977,
+   49.278
+  ],
+  "kind": "Complete riverside cottage holding with full tiled roof, chimney, all-side windows, north entrance and road path, enclosed vegetable gardens, timber shed, laundry, bench, barrels, pots, resident and hens",
+  "module": "modules/north-west-riverside.js"
+ },
+ "north-west-riverside_holding_9": {
+  "task": "north-west-riverside",
+  "bbox": [
+   -87.075,
+   3.688,
+   28.96,
+   -59.925,
+   13.101,
+   46.184
+  ],
+  "kind": "Complete riverside cottage holding with full tiled roof, chimney, all-side windows, north entrance and road path, enclosed vegetable gardens, timber shed, laundry, bench, barrels, pots, resident and hens",
+  "module": "modules/north-west-riverside.js"
+ },
+ "north-east_lanes": {
+  "task": "north-east",
+  "bbox": [
+   -9.9,
+   3.5,
+   51.5,
+   80.9,
+   12,
+   107.9
+  ],
+  "kind": "completed ground-following rear domestic lanes, root-road junction, barn branch and gravel shoulders connecting the eight-house eastern north-bank cluster",
+  "module": "modules/north-east.js"
+ },
+ "north-west_rear_lanes": {
+  "task": "north-west",
+  "bbox": [
+   -132.9,
+   3,
+   46,
+   -35.1,
+   8,
+   86.9
+  ],
+  "kind": "permanent terrain-following rear service loop, 2.9m carriageway with 3.7m shoulders, two root north-road junctions and connections to four street households and inland farm holdings",
+  "module": "modules/north-west.js"
+ },
+ "waterfront_west_approach": {
+  "task": "waterfront",
+  "bbox": [
+   -92.25,
+   1.69,
+   23.17,
+   -89.75,
+   4.69,
+   50.69
+  ],
+  "kind": "Ground-following road approach with nine stone bank steps founded below sampled terrain; joins the shared-plan timber landing",
+  "module": "modules/waterfront.js"
+ },
+ "waterfront_south_approach": {
+  "task": "waterfront",
+  "bbox": [
+   80.75,
+   1.69,
+   -50.35,
+   83.25,
+   4.61,
+   -26.33
+  ],
+  "kind": "Ground-following road approach with nine stone bank steps founded below sampled terrain; joins the shared-plan timber landing",
+  "module": "modules/waterfront.js"
+ },
+ "waterfront_east_approach": {
+  "task": "waterfront",
+  "bbox": [
+   12.75,
+   1.64,
+   30.43,
+   15.25,
+   4.8,
+   50.95
+  ],
+  "kind": "Ground-following road approach with nine stone bank steps founded below sampled terrain; joins the shared-plan timber landing",
+  "module": "modules/waterfront.js"
+ },
+ "root_terrain": {
+  "task": "root",
+  "bbox": [
+   -2000,
+   -3.7,
+   -2000,
+   2000,
+   16.7,
+   2000
+  ],
+  "kind": "continuous rolling terrain and bank relief extending to a 2km horizon",
+  "module": "modules/root.js"
+ },
+ "root_river": {
+  "task": "root",
+  "bbox": [
+   -2000,
+   0.6,
+   -31.12,
+   2000,
+   0.64,
+   31.11
+  ],
+  "kind": "wide east-west river ribbon with broken current reflections",
+  "module": "modules/root.js"
+ },
+ "root_roads": {
+  "task": "root",
+  "bbox": [
+   -1998.844,
+   2.267,
+   -1947.584,
+   1990.11,
+   16.9,
+   1970.718
+  ],
+  "kind": "connected ground-following roads with integrated shoulders, bridge and chapel approaches and distant continuations",
+  "module": "modules/root.js"
+ },
+ "root_meadows": {
+  "task": "root",
+  "bbox": [
+   -316.417,
+   0.682,
+   -287.741,
+   319.842,
+   29.438,
+   286.975
+  ],
+  "kind": "meadow grass, distant road-cleared trees and scattered shoreline stones",
+  "module": "modules/root.js"
+ }
+}

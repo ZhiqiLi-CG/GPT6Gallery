@@ -1,0 +1,106 @@
+{
+  "south": {
+    "position": [
+      165,
+      150,
+      -235
+    ],
+    "target": [
+      0,
+      8,
+      2
+    ],
+    "fov": 48
+  },
+  "north": {
+    "position": [
+      -155,
+      157,
+      244
+    ],
+    "target": [
+      0,
+      9,
+      3
+    ],
+    "fov": 48
+  },
+  "east": {
+    "position": [
+      275,
+      157,
+      12
+    ],
+    "target": [
+      0,
+      8,
+      6
+    ],
+    "fov": 48
+  },
+  "west": {
+    "position": [
+      -275,
+      157,
+      12
+    ],
+    "target": [
+      0,
+      8,
+      6
+    ],
+    "fov": 48
+  },
+  "town-close": {
+    "position": [
+      -107,
+      48,
+      -111
+    ],
+    "target": [
+      -39,
+      5,
+      -30
+    ],
+    "fov": 49
+  },
+  "harbor-close": {
+    "position": [
+      127,
+      58,
+      -143
+    ],
+    "target": [
+      67,
+      3,
+      -72
+    ],
+    "fov": 48
+  },
+  "temple-close": {
+    "position": [
+      -90,
+      60,
+      1
+    ],
+    "target": [
+      -35,
+      27,
+      56
+    ],
+    "fov": 47
+  },
+  "rice-close": {
+    "position": [
+      120,
+      67,
+      -2
+    ],
+    "target": [
+      63,
+      11,
+      48
+    ],
+    "fov": 48
+  }
+}

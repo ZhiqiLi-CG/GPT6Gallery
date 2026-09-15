@@ -1,0 +1,32 @@
+{
+ "conventions": {
+  "owner": "root",
+  "version": 3,
+  "spec": "v1: x east, z north, y up, metres. THREE world coordinates. Stylized detailed Japanese island, warm wood, charcoal-grey tiled roofs, stone, muted green terrain, pale teal sea; buildings complete in 3D. Import root-owned functions from ./root.js; do not duplicate them.",
+  "by": "root"
+ },
+ "terrain": {
+  "owner": "root",
+  "version": 4,
+  "spec": "v3: modules/root.js exports heightAt(x,z), streamX(z), SEA_LEVEL=0. Island ellipse approximately x +/-132, z -115..123; continuous sea extends past bounds. Terrain surface and banks root-owned. Place ground objects using heightAt; slope foundations must reach local terrain. Temple platform fixed y=26 within [-70,32,-22,76]. Quay top y=2.915 within [53,-76,94,-58]. Stream center streamX(z), z -102..65, channel width 3, banks 4.8. Root owns stream water, rocks, small timber bridge at z=-15; no child bridge duplication. Harbor inlet is excavated immediately south of quay z=-76 between x53..94: water access is continuous. Use heightAt for exact coast, not ellipse approximation. Ground function unchanged after child delivery; mesh sampling refined. Sea geometry now extends to +/-10000m so its edges are outside the cameras.",
+  "by": "root"
+ },
+ "roads": {
+  "owner": "root",
+  "version": 4,
+  "spec": "v3: roadNetwork() exported by modules/root.js returns id,width,points in [x,z]. Root renders terrain-following road ribbons; leave all lanes clear. Widths 3..4.5m. Main east-west market road crosses root timber bridge near [36,-15]. Branches connect west shore torii, temple southeast/southwest entries, harbor quay and rice east edge. Children can add private paths and steps within own district. Root also owns stone culverts at stream z=10 and z=-58.2. Private approach paths should bridge small road height differences using short steps. Final shared structure includes solid stone bridge approach ramps, fully tessellated terrain-following road surfaces, and clear openings at both temple entries. All road centerlines and widths remain unchanged.",
+  "by": "root"
+ },
+ "layout": {
+  "owner": "root",
+  "version": 4,
+  "spec": "v3: layout() exported by modules/root.js supplies temple, harbor, torii, bridge, town.lots, rice, style. Root owns permanent blockout/foundation masses: 24 town pads each top lot.y+0.55; temple terrace top y26.08 (center -46,54 size48x44); harbor quay top y2.915. Town child builds complete homes on pads and may add more on suitable terrain. Sacred child owns temple/pagoda/courtyard and shore torii. Harbor child owns working docks boats racks sheds. Rural child owns eastern rice terraces and island-wide vegetation outside town footprints, temple platform, harbor quay and roads. No above-ground architecture placeholders remain to remove: blockout masses become permanent foundations. Torii reserve: radius 10 around [-61,-80], sacred child only. Rural tree exclusions: town rect [-95,-76,29,37], temple rect [-74,28,-18,80], harbor rect [47,-112,108,-42], and torii reserve; rural may plant surrounding slopes, coastline and stream source. Each district owns its own courtyard/yard trees. Final: layout().harbor.y=2.915 matches actual quay top. Lot11 anchors and exported dimensions remain unchanged, but its root-rendered pad is centered at [-69.8,-51], width6.7 depth6.3, at original lot.y+0.55, matching the coordinated town-owned compact house.",
+  "by": "root"
+ },
+ "cameras": {
+  "owner": "root",
+  "version": 4,
+  "spec": "v3: world/cameras.json defines hero, north,south,east,west, town-close,harbor-close,temple-close,rice-close. Fixed world cameras; no input reference image. Render and judge all four compass views and at least two close-ups; overview is automatic bounds view. Final camera set also includes bridge-close and shore-close. Hero fov30 provides a tighter complete-island presentation. Original compass and district camera positions remain unchanged.",
+  "by": "root"
+ }
+}

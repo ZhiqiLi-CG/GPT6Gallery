@@ -1,0 +1,32 @@
+{
+ "conventions": {
+  "owner": "root",
+  "version": 3,
+  "spec": "Owner root. Units metres, x east, z north, y up; right-handed THREE scene. Bounds [-150,-150,150,150], y [-30,120]. Warm, mildly stylized full-3D old European village, subdued plaster/wood/stone, pitched clay/slate roofs, lush green plants. build(THREE,ctx) returns world-coordinate Object3D. Import shared functions from ./root.js; do not copy geography. Deterministic parameterized geometry.",
+  "by": "root"
+ },
+ "terrain": {
+  "owner": "root",
+  "version": 3,
+  "spec": "Owner root. modules/root.js exports heightAt(x,z), waterLevel=0.6, riverCenter(x), riverHalfWidth(x), bankZ(x,side=1) where side +1 north, -1 south. Broad east-west river spans z=riverCenter\u00b1riverHalfWidth (~50-55m). Terrain goes from submerged bed through 9m banks to land y~4.4, rising further inland, and extends beyond bounds. Build foundations down to heightAt at every footprint corner; do not float or assume flat lots. Root owns ground and river water; children own additional plants, paths and structure geometry in assigned scope. Sample and import bankZ for shoreline contact. Final root geometry preserves the existing sampling grid within \u00b1350m and extends distant terrain and river to \u00b12000m. Terrain vertex color and instanced outer-meadow grasses replace temporary field sheets.",
+  "by": "root"
+ },
+ "roads": {
+  "owner": "root",
+  "version": 3,
+  "spec": "Owner root. modules/root.js exports roadNetwork(): objects {id,width,points:[[x,z],...]}. Root draws north-road (east-west z~48-74), bridge-north and bridge-south (x=-22 at river), south-lane (z~-48..-68), chapel-path from (108,66) to (116,94). Roads follow heightAt +0.20 with shoulders. Main roads continue past world bounds. Children add connecting paths and yards, preserve these routes, keep buildings and fences off their full widths. Bridge owner must taper deck to road height by z=-39 and +39; bridge crown deck can reach y=7.1. Final road surfaces use a single colored ground-following mesh with integrated shoulders, maintaining the agreed centerline coordinates and y=heightAt+0.20; boundary geometry continues into the distant landscape.",
+  "by": "root"
+ },
+ "layout": {
+  "owner": "root",
+  "version": 3,
+  "spec": "Owner root. modules/root.js exports layout() with bridge, mill (including wheel axis z, north-facing wheel toward channel), chapel, northHouses (16), northBarns (2), southHouses (10), barns (5 southern), docks (3) and exclusions. North and south site coordinates are centers; child may vary footprints, rotations and sites modestly while preserving road, church, landing, bridge and mill clearances. Bridge reserve x[-32,-12] z[-39,40]. Mill reserve x[38,80] z[-61,-17]; mill center (55,-36), wheel centered in actual water at bankZ(55,-1)+1.2. Chapel reserve x[101,135] z[83,119]. Waterfront owns docks x=-91 north, x=14 north, x=82 south, reed beds and willows following both banks, avoiding buildings, crossing, mill wheel/flume and landing access. Export claimDistrict(name): each child calls it inside build to remove root-owned temporary district blockout; accepted names north-bank, south-bank, crossing-mill, waterfront. Calls remain effective before/after root build and across descendant modules; no child edits root.js. Descendants inherit their parent claim name and call it whenever they build replacement content. Whole-again complete: all root temporary masses are permanently retired; claimDistrict remains a stable compatible descendant API. Site coordinates remain the planning source; actual detailed object extents belong to the descendant records in world/objects.json.",
+  "by": "root"
+ },
+ "cameras": {
+  "owner": "root",
+  "version": 3,
+  "spec": "Owner root. world/cameras.json names village (southeast overview), north, south, east, west, crossing, mill-docks, chapel. JSON maps name to {position:[x,y,z],target:[x,y,z],fov}. No reference image; assess textual completeness from this set. Render all four compass views and close-ups; root initial files under tasks/root/views. All tasks can render named cameras and their own --rect regions.",
+  "by": "root"
+ }
+}

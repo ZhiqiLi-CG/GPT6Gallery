@@ -1,0 +1,717 @@
+{
+ "landmarks_church": {
+  "task": "landmarks",
+  "bbox": [
+   -43,
+   2,
+   48,
+   -23,
+   42,
+   83
+  ],
+  "kind": "stone church with nave, chancel, buttresses, arched openings, bell tower and steeple",
+  "module": "modules/landmarks.js"
+ },
+ "landmarks_churchyard": {
+  "task": "landmarks",
+  "bbox": [
+   -52,
+   2,
+   44,
+   -13,
+   10,
+   85
+  ],
+  "kind": "enclosed churchyard with gate, entrance paths and gravestones",
+  "module": "modules/landmarks.js"
+ },
+ "landmarks_windmill": {
+  "task": "landmarks",
+  "bbox": [
+   -105,
+   9,
+   67,
+   -78,
+   40,
+   82
+  ],
+  "kind": "tapered stone windmill with cap and four lattice cloth sails",
+  "module": "modules/landmarks.js"
+ },
+ "landmarks_mill_storehouse": {
+  "task": "landmarks",
+  "bbox": [
+   -83,
+   5,
+   81,
+   -73,
+   19,
+   89
+  ],
+  "kind": "timber mill storage shed with complete tiled roof",
+  "module": "modules/landmarks.js"
+ },
+ "landmarks_mill_workyard": {
+  "task": "landmarks",
+  "bbox": [
+   -107,
+   4,
+   61,
+   -71,
+   16,
+   100
+  ],
+  "kind": "fenced mill yard with road access, worn earth, grain sacks, loaded cart and millstones",
+  "module": "modules/landmarks.js"
+ },
+ "landmarks_hill_orchard_meadow": {
+  "task": "landmarks",
+  "bbox": [
+   -120,
+   2,
+   75,
+   -55,
+   17,
+   113
+  ],
+  "kind": "low hill orchard trees and intentionally open textured meadow",
+  "module": "modules/landmarks.js"
+ },
+ "farms_west_grain_outer": {
+  "task": "farms",
+  "bbox": [
+   -144,
+   0,
+   -143,
+   -106,
+   6,
+   -99
+  ],
+  "kind": "hedged golden grain field with fence and gate",
+  "module": "modules/farms.js"
+ },
+ "farms_west_plough": {
+  "task": "farms",
+  "bbox": [
+   -143,
+   0,
+   -111,
+   -89,
+   6,
+   -87
+  ],
+  "kind": "enclosed ploughed strip with raised earthen furrows",
+  "module": "modules/farms.js"
+ },
+ "farms_west_grain_inner": {
+  "task": "farms",
+  "bbox": [
+   -105,
+   0,
+   -142,
+   -53,
+   6,
+   -98
+  ],
+  "kind": "irregular fenced golden grain field",
+  "module": "modules/farms.js"
+ },
+ "farms_west_vegetables": {
+  "task": "farms",
+  "bbox": [
+   -81,
+   0,
+   -107,
+   -52,
+   6,
+   -85
+  ],
+  "kind": "green crop rows with soil ridges and enclosure",
+  "module": "modules/farms.js"
+ },
+ "farms_west_orchard": {
+  "task": "farms",
+  "bbox": [
+   -103,
+   0,
+   -81,
+   -56,
+   10,
+   -57
+  ],
+  "kind": "enclosed fruit orchard in rows",
+  "module": "modules/farms.js"
+ },
+ "farms_west_farmstead": {
+  "task": "farms",
+  "bbox": [
+   -142,
+   0,
+   -90,
+   -103,
+   16,
+   -57
+  ],
+  "kind": "half-timber farmhouse, timber barn, shed, working yard, stackyard, haystacks, cart, barrels, tools, pig and sheep pens",
+  "module": "modules/farms.js"
+ },
+ "farms_west_access": {
+  "task": "farms",
+  "bbox": [
+   -123,
+   0,
+   -91,
+   -76,
+   5,
+   -72
+  ],
+  "kind": "terrain-following farm access lane and open timber gate",
+  "module": "modules/farms.js"
+ },
+ "farms_east_south_grain": {
+  "task": "farms",
+  "bbox": [
+   78,
+   0,
+   -118,
+   143,
+   6,
+   -89
+  ],
+  "kind": "hedged golden grain field with gate",
+  "module": "modules/farms.js"
+ },
+ "farms_east_south_vegetables": {
+  "task": "farms",
+  "bbox": [
+   78,
+   0,
+   -97,
+   97,
+   6,
+   -42
+  ],
+  "kind": "fenced green crop strips and earthen ridges",
+  "module": "modules/farms.js"
+ },
+ "farms_east_south_farmstead": {
+  "task": "farms",
+  "bbox": [
+   97,
+   0,
+   -90,
+   144,
+   16,
+   -46
+  ],
+  "kind": "half-timber farmhouse, timber barn, shed, working yard, cow and pig pens, haystack yard, cart, barrels and tools",
+  "module": "modules/farms.js"
+ },
+ "farms_east_south_access": {
+  "task": "farms",
+  "bbox": [
+   117,
+   0,
+   -74,
+   133,
+   5,
+   -35
+  ],
+  "kind": "farm lane and open gate connecting bridge road",
+  "module": "modules/farms.js"
+ },
+ "farms_east_mid_plough": {
+  "task": "farms",
+  "bbox": [
+   78,
+   0,
+   -18,
+   100,
+   6,
+   36
+  ],
+  "kind": "bounded dark ploughed strips west of east farm road",
+  "module": "modules/farms.js"
+ },
+ "farms_east_mid_grain": {
+  "task": "farms",
+  "bbox": [
+   99,
+   0,
+   -35,
+   144,
+   6,
+   3
+  ],
+  "kind": "golden grain field between farmsteads",
+  "module": "modules/farms.js"
+ },
+ "farms_east_north_farmstead": {
+  "task": "farms",
+  "bbox": [
+   104,
+   0,
+   3,
+   145,
+   16,
+   41
+  ],
+  "kind": "half-timber farmhouse, timber barn, shed, sheep pen, working yard, haystacks, cart, barrels and tools",
+  "module": "modules/farms.js"
+ },
+ "farms_east_north_access": {
+  "task": "farms",
+  "bbox": [
+   96,
+   0,
+   13,
+   133,
+   5,
+   23
+  ],
+  "kind": "gated yard lane connecting north farm road",
+  "module": "modules/farms.js"
+ },
+ "farms_east_orchard": {
+  "task": "farms",
+  "bbox": [
+   114,
+   0,
+   41,
+   144,
+   10,
+   113
+  ],
+  "kind": "long hedged orchard with rows of branching fruit trees",
+  "module": "modules/farms.js"
+ },
+ "farms_east_north_vegetables": {
+  "task": "farms",
+  "bbox": [
+   78,
+   0,
+   38,
+   106,
+   6,
+   80
+  ],
+  "kind": "fenced green crop rows west of road",
+  "module": "modules/farms.js"
+ },
+ "farms_east_north_grain": {
+  "task": "farms",
+  "bbox": [
+   78,
+   0,
+   77,
+   117,
+   6,
+   115
+  ],
+  "kind": "hedged grain field following winding road",
+  "module": "modules/farms.js"
+ },
+ "village_house_01": {
+  "task": "village",
+  "bbox": [
+   -56.75,
+   0.5463432915771551,
+   -26.225,
+   -41.25,
+   16.94531527056279,
+   -11.774999999999999
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_02": {
+  "task": "village",
+  "bbox": [
+   -60,
+   0.4881522455099918,
+   4.5,
+   -46,
+   15.45029714254926,
+   19.5
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_03": {
+  "task": "village",
+  "bbox": [
+   -57,
+   0.8163727092080824,
+   20,
+   -43,
+   16.323116426984978,
+   36
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_04": {
+  "task": "village",
+  "bbox": [
+   -39,
+   0.9996147050132391,
+   15.5,
+   -25,
+   15.591175255044746,
+   30.5
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_05": {
+  "task": "village",
+  "bbox": [
+   -19,
+   1.5061373725598872,
+   16.5,
+   -5,
+   14.880543306925127,
+   31.5
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_06": {
+  "task": "village",
+  "bbox": [
+   -0.5,
+   1.884627184284831,
+   8.774999999999999,
+   14.5,
+   18.369257281687737,
+   23.225
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_07": {
+  "task": "village",
+  "bbox": [
+   2.5,
+   1.776154375453452,
+   -7,
+   17.5,
+   16.36100025818452,
+   7
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_08": {
+  "task": "village",
+  "bbox": [
+   -9.275,
+   1.1680809696736896,
+   -32,
+   7.275,
+   16.20734057709609,
+   -18
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_09": {
+  "task": "village",
+  "bbox": [
+   -22,
+   0.8762490919542594,
+   -39.5,
+   -8,
+   14.15933619831425,
+   -24.5
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_10": {
+  "task": "village",
+  "bbox": [
+   -44,
+   0.7268633597360932,
+   -41.5,
+   -30,
+   15.202917333296828,
+   -26.5
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_11": {
+  "task": "village",
+  "bbox": [
+   -65.5,
+   0.7701416989550998,
+   -39.225,
+   -50.5,
+   17.243223181369956,
+   -24.775
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_12": {
+  "task": "village",
+  "bbox": [
+   -82.5,
+   0.4816455851003081,
+   -8,
+   -69.5,
+   15.35235647681197,
+   6
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_13": {
+  "task": "village",
+  "bbox": [
+   -81.5,
+   0.5469287562442853,
+   12,
+   -68.5,
+   13.398466246258973,
+   26
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_14": {
+  "task": "village",
+  "bbox": [
+   4,
+   1.305147060367295,
+   -43.5,
+   18,
+   15.784661138751808,
+   -30.5
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_15": {
+  "task": "village",
+  "bbox": [
+   -66.5,
+   1.1203886494726087,
+   -55.225,
+   -53.5,
+   16.046769013654597,
+   -40.775
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_16": {
+  "task": "village",
+  "bbox": [
+   -52.7,
+   1.0144576261538085,
+   -56,
+   -39.3,
+   16.93493590827733,
+   -42
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_17": {
+  "task": "village",
+  "bbox": [
+   -12.5,
+   1.7966738700971656,
+   30,
+   0.5,
+   14.578774573129966,
+   44
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_18": {
+  "task": "village",
+  "bbox": [
+   8.5,
+   2.120146994444031,
+   29,
+   21.5,
+   16.954919246137802,
+   43
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_19": {
+  "task": "village",
+  "bbox": [
+   -94.5,
+   0.5703443276603513,
+   0,
+   -81.5,
+   14.54156135835822,
+   14
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_20": {
+  "task": "village",
+  "bbox": [
+   -91,
+   1.1161328285772512,
+   -40.5,
+   -77,
+   15.582088628117006,
+   -27.5
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_21": {
+  "task": "village",
+  "bbox": [
+   -95,
+   0.7085923801142511,
+   -13.7,
+   -81,
+   16.63721169666669,
+   -0.2999999999999998
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_22": {
+  "task": "village",
+  "bbox": [
+   -86.5,
+   1.2839057265139302,
+   24.775,
+   -73.5,
+   15.779468192898257,
+   39.225
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_23": {
+  "task": "village",
+  "bbox": [
+   -23.5,
+   0.9445123870724248,
+   -57,
+   -10.5,
+   15.323902677071825,
+   -43
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_house_24": {
+  "task": "village",
+  "bbox": [
+   17,
+   1.687057916912777,
+   -37.5,
+   31,
+   16.642675886742982,
+   -24.5
+  ],
+  "kind": "complete half-timbered house with tiled roof and domestic yard",
+  "module": "modules/village.js"
+ },
+ "village_market": {
+  "task": "village",
+  "bbox": [
+   -37,
+   0,
+   -18,
+   -7,
+   10,
+   11
+  ],
+  "kind": "cobbled market square with stone well, timber winding canopy, six produce stalls and inhabitants",
+  "module": "modules/village.js"
+ },
+ "village_domestic_fabric": {
+  "task": "village",
+  "bbox": [
+   -94,
+   0,
+   -57,
+   31,
+   16,
+   45
+  ],
+  "kind": "connected dirt alleys and working yards, garden plots, fences, sheds, carts, trees and hedges",
+  "module": "modules/village.js"
+ },
+ "root_terrain": {
+  "task": "root",
+  "bbox": [
+   -8000,
+   -1.2,
+   -8000,
+   8000,
+   14,
+   8000
+  ],
+  "kind": "continuous rolling green plain and low windmill hill",
+  "module": "modules/root.js"
+ },
+ "root_stream": {
+  "task": "root",
+  "bbox": [
+   25,
+   -0.65,
+   -5300,
+   83,
+   5,
+   5300
+  ],
+  "kind": "winding stream with sloped banks, shallows, stones, reeds, shrubs and ripples",
+  "module": "modules/root.js"
+ },
+ "root_roads": {
+  "task": "root",
+  "bbox": [
+   -650,
+   -1,
+   -650,
+   650,
+   14,
+   650
+  ],
+  "kind": "connected dirt roads with edges, wheel wear and stones",
+  "module": "modules/root.js"
+ },
+ "root_bridge": {
+  "task": "root",
+  "bbox": [
+   33,
+   -1.1,
+   -25.1,
+   59,
+   4.8,
+   -18.9
+  ],
+  "kind": "wooden bridge with planks, piles, supporting beams, braced rails and raised approaches",
+  "module": "modules/root.js"
+ },
+ "root_trees": {
+  "task": "root",
+  "bbox": [
+   -198,
+   0,
+   -193,
+   198,
+   18,
+   193
+  ],
+  "kind": "peripheral and riverside trees clear of roads and child districts",
+  "module": "modules/root.js"
+ }
+}

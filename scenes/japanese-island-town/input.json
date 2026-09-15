@@ -1,0 +1,18 @@
+{
+ "text": "A small Japanese island town: wooden houses with tiled roofs along narrow streets, a temple with a pagoda on the hill, a torii gate by the shore, a fishing harbor with boats and drying racks, rice terraces, cherry and pine trees, stone lanterns and a small bridge over a stream.",
+ "conditions": "detail: high — from any camera, including close-ups, the place must read as real and lived-in",
+ "image": null,
+ "bounds": [
+  -150.0,
+  -150.0,
+  150.0,
+  150.0
+ ],
+ "y": [
+  -30.0,
+  120.0
+ ],
+ "workers": 10,
+ "max_depth": 4,
+ "max_cycles": 3
+}

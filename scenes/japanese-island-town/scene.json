@@ -1,0 +1,172 @@
+{
+ "id": "japanese-island-town",
+ "title": "Japanese island town (detail: high)",
+ "prompt": "A small Japanese island town: wooden houses with tiled roofs along narrow streets, a temple with a pagoda on the hill, a torii gate by the shore, a fishing harbor with boats and drying racks, rice terraces, cherry and pine trees, stone lanterns and a small bridge over a stream.",
+ "conditions": "detail: high — from any camera, including close-ups, the place must read as real and lived-in",
+ "bounds": [
+  -192.0,
+  -192.0,
+  192.0,
+  192.0
+ ],
+ "y": [
+  -30.0,
+  120.0
+ ],
+ "modules": [
+  "root.js",
+  "town.js",
+  "rice.js",
+  "temple.js",
+  "harbor.js",
+  "south.js",
+  "middle.js",
+  "north.js",
+  "middle-east.js",
+  "middle-center.js",
+  "south-center.js",
+  "south-east.js",
+  "north-east.js",
+  "middle-west.js",
+  "south-west.js",
+  "north-central.js",
+  "east-firewood.js",
+  "east-laundry.js",
+  "north-west.js",
+  "east-provisions.js",
+  "south-center-garden.js",
+  "middle-center-north.js",
+  "east-pine.js",
+  "south-center-shop.js",
+  "south-center-laundry.js",
+  "se-laundry.js",
+  "se-garden.js",
+  "middle-center-south.js",
+  "se-shed.js",
+  "south-center-utility.js",
+  "se-shop.js",
+  "northeast-pottery.js",
+  "west-garden.js",
+  "central-kitchen.js",
+  "west-provisions.js",
+  "west-domestic.js",
+  "northeast-provisions.js",
+  "central-craft.js",
+  "central-tea.js"
+ ],
+ "cameras": {
+  "south": {
+   "position": [
+    165,
+    150,
+    -235
+   ],
+   "target": [
+    0,
+    8,
+    2
+   ],
+   "fov": 48
+  },
+  "north": {
+   "position": [
+    -155,
+    157,
+    244
+   ],
+   "target": [
+    0,
+    9,
+    3
+   ],
+   "fov": 48
+  },
+  "east": {
+   "position": [
+    275,
+    157,
+    12
+   ],
+   "target": [
+    0,
+    8,
+    6
+   ],
+   "fov": 48
+  },
+  "west": {
+   "position": [
+    -275,
+    157,
+    12
+   ],
+   "target": [
+    0,
+    8,
+    6
+   ],
+   "fov": 48
+  },
+  "town-close": {
+   "position": [
+    -107,
+    48,
+    -111
+   ],
+   "target": [
+    -39,
+    5,
+    -30
+   ],
+   "fov": 49
+  },
+  "harbor-close": {
+   "position": [
+    127,
+    58,
+    -143
+   ],
+   "target": [
+    67,
+    3,
+    -72
+   ],
+   "fov": 48
+  },
+  "temple-close": {
+   "position": [
+    -90,
+    60,
+    1
+   ],
+   "target": [
+    -35,
+    27,
+    56
+   ],
+   "fov": 47
+  },
+  "rice-close": {
+   "position": [
+    120,
+    67,
+    -2
+   ],
+   "target": [
+    63,
+    11,
+    48
+   ],
+   "fov": 48
+  }
+ },
+ "stats": {
+  "tasks": 39,
+  "levels": 5,
+  "sessions": 66,
+  "tokens_M": 5.36,
+  "wall_min": 89,
+  "objects": 483
+ },
+ "model": "gpt-6-astra (reasoning: high)"
+}

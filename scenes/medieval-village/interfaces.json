@@ -1,0 +1,65 @@
+{
+ "conventions": {
+  "owner": "root",
+  "version": 4,
+  "spec": {
+   "version": 3,
+   "owner": "root",
+   "coordinates": "Metres; x east, z north, y up. Every build(THREE,ctx) returns an Object3D in world coordinates. Use warm earth colors, ivory plaster, dark oak, terracotta tiles, softly faceted green trees. All foundations follow heightAt; structures must have volume and full roofs."
+  },
+  "by": "root"
+ },
+ "terrain": {
+  "owner": "root",
+  "version": 4,
+  "spec": {
+   "version": 3,
+   "owner": "root",
+   "module": "modules/root.js",
+   "exports": [
+    "heightAt(x,z)",
+    "streamX(z)"
+   ],
+   "description": "Import heightAt and streamX from ./root.js; never duplicate formulas. Rolling green plain, hill centered (-91,76) reaching about 12m. Stream water y=.42, channel roughly streamX(z) +/-5.25, banks extend to +/-13m. Root owns terrain, water, banks, rocks and riparian/peripheral trees. Buildings/fences must not obstruct stream. Terrain continues far outside bounds. Final integration adds instanced bank reeds, low shrubs, pebbles and subtle water ripples; the water level and height function remain unchanged. Root trees exclude child object footprints and road corridors."
+  },
+  "by": "root"
+ },
+ "roads": {
+  "owner": "root",
+  "version": 4,
+  "spec": {
+   "version": 3,
+   "owner": "root",
+   "module": "modules/root.js",
+   "export": "roadNetwork()",
+   "description": "Returns array of {id,width,points:[[x,z],...]}. Root owns these dirt roads and bridge. Keep walls outside road half-width +2m, place gates/access paths to meet roads. Children may add their own yard lanes and footpaths draped over terrain. Wooden bridge centered (streamX(-22),-22), 24m E-W length, 6m N-S width, deck y=3.0. Do not add a second bridge. Subtle wheel wear and small stones detail outer roads; all centerlines and widths remain unchanged."
+  },
+  "by": "root"
+ },
+ "layout": {
+  "owner": "root",
+  "version": 4,
+  "spec": {
+   "version": 3,
+   "owner": "root",
+   "module": "modules/root.js",
+   "exports": [
+    "layout()",
+    "clearBlockout(name)"
+   ],
+   "description": "layout() returns agreed district bounds, centers, square and bridge dimensions. Original housePlots are planning suggestions; the delivered village objects are the record of final house positions. All root placeholder masses have been retired. clearBlockout(name) remains as a harmless compatibility export for the delivered child modules. Village, landmarks and farm modules own all permanent architecture, yards, enclosures, fields, orchards and local access paths. Root owns terrain, stream, bridge, through roads and peripheral/riparian vegetation. No unresolved boundary changes remain."
+  },
+  "by": "root"
+ },
+ "cameras": {
+  "owner": "root",
+  "version": 4,
+  "spec": {
+   "version": 3,
+   "owner": "root",
+   "file": "world/cameras.json",
+   "description": "Named south,north,east,west cover whole village; market and crossing are closeups; village is presentation view. No input image. Root controls cameras; inspect named cameras and additional --rect district closeups."
+  },
+  "by": "root"
+ }
+}

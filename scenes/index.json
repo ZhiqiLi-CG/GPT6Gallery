@@ -1,0 +1,20 @@
+{
+ "scenes": [
+  {
+   "id": "japanese-island-town",
+   "title": "Japanese island town (detail: high)"
+  },
+  {
+   "id": "riverside-village",
+   "title": "Riverside village"
+  },
+  {
+   "id": "medieval-village",
+   "title": "Medieval village"
+  },
+  {
+   "id": "japanese-island-town-v1",
+   "title": "Japanese island town (first run)"
+  }
+ ]
+}

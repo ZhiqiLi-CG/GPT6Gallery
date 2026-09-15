@@ -1,0 +1,10 @@
+{
+  "village": {"position":[230,210,-285],"target":[0,4,8],"fov":46},
+  "north": {"position":[0,180,310],"target":[0,4,0],"fov":48},
+  "south": {"position":[0,180,-310],"target":[0,4,0],"fov":48},
+  "east": {"position":[325,190,0],"target":[0,4,0],"fov":48},
+  "west": {"position":[-325,190,0],"target":[0,4,0],"fov":48},
+  "crossing": {"position":[-96,70,-113],"target":[-22,5,0],"fov":44},
+  "mill-docks": {"position":[119,62,65],"target":[57,5,-29],"fov":45},
+  "chapel": {"position":[164,65,27],"target":[99,8,88],"fov":47}
+}

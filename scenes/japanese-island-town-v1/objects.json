@@ -1,0 +1,1159 @@
+{
+ "sacred_main_hall": {
+  "task": "sacred",
+  "bbox": [
+   -50.6,
+   26.08,
+   53.4,
+   -27.4,
+   37.8,
+   71.6
+  ],
+  "kind": "temple-hall",
+  "module": "modules/sacred.js"
+ },
+ "sacred_pagoda": {
+  "task": "sacred",
+  "bbox": [
+   -66.2,
+   26.08,
+   56,
+   -53.8,
+   53.6,
+   69.2
+  ],
+  "kind": "five-storey-pagoda",
+  "module": "modules/sacred.js"
+ },
+ "sacred_entry_gate": {
+  "task": "sacred",
+  "bbox": [
+   -51.2,
+   26.08,
+   34.4,
+   -40.8,
+   33.7,
+   39.6
+  ],
+  "kind": "temple-entry-gate",
+  "module": "modules/sacred.js"
+ },
+ "sacred_courtyard": {
+  "task": "sacred",
+  "bbox": [
+   -65,
+   26.08,
+   34,
+   -25,
+   26.4,
+   55
+  ],
+  "kind": "gravel-courtyard-and-paving",
+  "module": "modules/sacred.js"
+ },
+ "sacred_raked_garden": {
+  "task": "sacred",
+  "bbox": [
+   -37.2,
+   26.08,
+   42.8,
+   -26.8,
+   28.3,
+   52.5
+  ],
+  "kind": "raked-gravel-rock-garden",
+  "module": "modules/sacred.js"
+ },
+ "sacred_enclosure": {
+  "task": "sacred",
+  "bbox": [
+   -69.8,
+   26.08,
+   44,
+   -22.2,
+   28.5,
+   75
+  ],
+  "kind": "timber-and-plaster-garden-walls",
+  "module": "modules/sacred.js"
+ },
+ "sacred_temple_lanterns": {
+  "task": "sacred",
+  "bbox": [
+   -66,
+   26.08,
+   42,
+   -40,
+   29.2,
+   56
+  ],
+  "kind": "stone-lanterns",
+  "module": "modules/sacred.js"
+ },
+ "sacred_temple_trees": {
+  "task": "sacred",
+  "bbox": [
+   -69.8,
+   26.08,
+   42.7,
+   -23.5,
+   33.5,
+   74.5
+  ],
+  "kind": "cherry-and-sculptural-pine-garden",
+  "module": "modules/sacred.js"
+ },
+ "sacred_purification_basin": {
+  "task": "sacred",
+  "bbox": [
+   -55.2,
+   26.08,
+   36.8,
+   -50.8,
+   30.5,
+   40.2
+  ],
+  "kind": "roofed-purification-basin",
+  "module": "modules/sacred.js"
+ },
+ "sacred_approach_steps": {
+  "task": "sacred",
+  "bbox": [
+   -62.7,
+   25.8,
+   31.9,
+   -24.3,
+   26.9,
+   34.7
+  ],
+  "kind": "stone-approach-steps",
+  "module": "modules/sacred.js"
+ },
+ "sacred_shore_torii": {
+  "task": "sacred",
+  "bbox": [
+   -67.6,
+   1.5,
+   -81.7,
+   -54.4,
+   11.4,
+   -78.3
+  ],
+  "kind": "vermilion-shore-torii",
+  "module": "modules/sacred.js"
+ },
+ "sacred_shore_approach": {
+  "task": "sacred",
+  "bbox": [
+   -62.4,
+   1,
+   -82.5,
+   -57.4,
+   3.6,
+   -76.9
+  ],
+  "kind": "shore-approach-paving",
+  "module": "modules/sacred.js"
+ },
+ "sacred_shore_lanterns": {
+  "task": "sacred",
+  "bbox": [
+   -65.6,
+   2,
+   -77.6,
+   -56.4,
+   6.8,
+   -75.6
+  ],
+  "kind": "stone-lanterns",
+  "module": "modules/sacred.js"
+ },
+ "sacred_shore_pine": {
+  "task": "sacred",
+  "bbox": [
+   -69.1,
+   1.5,
+   -78.5,
+   -63.9,
+   6.8,
+   -74
+  ],
+  "kind": "sculptural-pine",
+  "module": "modules/sacred.js"
+ },
+ "harbor_store": {
+  "task": "harbor",
+  "bbox": [
+   53.75,
+   2.915,
+   -69.45,
+   62.25,
+   8.315,
+   -61.95
+  ],
+  "kind": "timber-tiled-harbor-building",
+  "module": "modules/harbor.js"
+ },
+ "harbor_market": {
+  "task": "harbor",
+  "bbox": [
+   65.25,
+   2.915,
+   -69.25,
+   74.75,
+   8.715,
+   -61.75
+  ],
+  "kind": "timber-tiled-harbor-building",
+  "module": "modules/harbor.js"
+ },
+ "harbor_workshop": {
+  "task": "harbor",
+  "bbox": [
+   80.05,
+   2.915,
+   -69.5,
+   89.55,
+   8.515,
+   -61.5
+  ],
+  "kind": "timber-tiled-harbor-building",
+  "module": "modules/harbor.js"
+ },
+ "harbor_pier_1": {
+  "task": "harbor",
+  "bbox": [
+   55.4,
+   -2.41,
+   -103.5,
+   58.6,
+   4.1,
+   -75.2
+  ],
+  "kind": "timber-pier-with-quay-steps-piles",
+  "module": "modules/harbor.js"
+ },
+ "harbor_pier_2": {
+  "task": "harbor",
+  "bbox": [
+   71.4,
+   -2.41,
+   -107.5,
+   74.6,
+   4.1,
+   -75.2
+  ],
+  "kind": "timber-pier-with-quay-steps-piles",
+  "module": "modules/harbor.js"
+ },
+ "harbor_pier_3": {
+  "task": "harbor",
+  "bbox": [
+   88.4,
+   -2.41,
+   -103.5,
+   91.6,
+   4.1,
+   -75.2
+  ],
+  "kind": "timber-pier-with-quay-steps-piles",
+  "module": "modules/harbor.js"
+ },
+ "harbor_boat_1": {
+  "task": "harbor",
+  "bbox": [
+   50.95,
+   -0.7,
+   -106.48,
+   55.85,
+   6.1,
+   -95.52
+  ],
+  "kind": "rigged-fishing-boat",
+  "module": "modules/harbor.js"
+ },
+ "harbor_boat_2": {
+  "task": "harbor",
+  "bbox": [
+   59.04,
+   -0.7,
+   -103.1,
+   64.56,
+   2.0,
+   -90.9
+  ],
+  "kind": "fishing-boat",
+  "module": "modules/harbor.js"
+ },
+ "harbor_boat_3": {
+  "task": "harbor",
+  "bbox": [
+   66.07,
+   -0.7,
+   -95.1,
+   70.93,
+   2.0,
+   -84.9
+  ],
+  "kind": "fishing-boat",
+  "module": "modules/harbor.js"
+ },
+ "harbor_boat_4": {
+  "task": "harbor",
+  "bbox": [
+   74.88,
+   -0.7,
+   -105.69,
+   80.52,
+   6.1,
+   -92.31
+  ],
+  "kind": "rigged-fishing-boat",
+  "module": "modules/harbor.js"
+ },
+ "harbor_boat_5": {
+  "task": "harbor",
+  "bbox": [
+   82.88,
+   -0.7,
+   -95.28,
+   88.32,
+   2.0,
+   -83.72
+  ],
+  "kind": "fishing-boat",
+  "module": "modules/harbor.js"
+ },
+ "harbor_boat_6": {
+  "task": "harbor",
+  "bbox": [
+   92.29,
+   -0.7,
+   -102.37,
+   97.71,
+   6.1,
+   -89.63
+  ],
+  "kind": "rigged-fishing-boat",
+  "module": "modules/harbor.js"
+ },
+ "harbor_boat_7": {
+  "task": "harbor",
+  "bbox": [
+   83.9,
+   -0.7,
+   -110.41,
+   93.1,
+   2.0,
+   -105.59
+  ],
+  "kind": "fishing-boat",
+  "module": "modules/harbor.js"
+ },
+ "harbor_drying_rack_1": {
+  "task": "harbor",
+  "bbox": [
+   56.900000000000006,
+   2.915,
+   -73.7,
+   63.099999999999994,
+   5.82,
+   -72.60000000000001
+  ],
+  "kind": "rack-with-individual-drying-fish",
+  "module": "modules/harbor.js"
+ },
+ "harbor_drying_rack_2": {
+  "task": "harbor",
+  "bbox": [
+   66.95,
+   2.915,
+   -73.8,
+   73.05,
+   5.82,
+   -72.7
+  ],
+  "kind": "rack-with-individual-drying-fish",
+  "module": "modules/harbor.js"
+ },
+ "harbor_drying_rack_3": {
+  "task": "harbor",
+  "bbox": [
+   80.9,
+   2.915,
+   -73.7,
+   87.1,
+   5.82,
+   -72.60000000000001
+  ],
+  "kind": "rack-with-individual-drying-fish",
+  "module": "modules/harbor.js"
+ },
+ "harbor_net_frame_1": {
+  "task": "harbor",
+  "bbox": [
+   75.1,
+   2.915,
+   -70,
+   78.9,
+   6,
+   -69.1
+  ],
+  "kind": "hanging-fishing-net",
+  "module": "modules/harbor.js"
+ },
+ "harbor_net_frame_2": {
+  "task": "harbor",
+  "bbox": [
+   90.1,
+   2.915,
+   -70,
+   93.9,
+   6,
+   -69.1
+  ],
+  "kind": "hanging-fishing-net",
+  "module": "modules/harbor.js"
+ },
+ "harbor_working_yard": {
+  "task": "harbor",
+  "bbox": [
+   53,
+   2.915,
+   -75,
+   94,
+   5,
+   -61.7
+  ],
+  "kind": "working-yard-with-sorting-tables-crates-baskets-barrels-buoys-cart-workers",
+  "module": "modules/harbor.js"
+ },
+ "harbor_quay_ladders": {
+  "task": "harbor",
+  "bbox": [
+   63.6,
+   -0.3,
+   -76.5,
+   82.4,
+   3.4,
+   -76.1
+  ],
+  "kind": "timber-quay-ladders",
+  "module": "modules/harbor.js"
+ },
+ "harbor_private_steps": {
+  "task": "harbor",
+  "bbox": [
+   91.4,
+   2.6,
+   -62.7,
+   92.6,
+   3.1,
+   -59.7
+  ],
+  "kind": "private-approach-stones",
+  "module": "modules/harbor.js"
+ },
+ "rural_paddy_01": {
+  "task": "rural",
+  "bbox": [
+   48.2,
+   6,
+   23.65,
+   77.6,
+   20,
+   29.35
+  ],
+  "kind": "level-water-rice-terrace-with-plants-bunds-and-retaining-stone",
+  "module": "modules/rural.js"
+ },
+ "rural_paddy_02": {
+  "task": "rural",
+  "bbox": [
+   49.1,
+   6,
+   29.45,
+   78.25,
+   20,
+   35.15
+  ],
+  "kind": "level-water-rice-terrace-with-plants-bunds-and-retaining-stone",
+  "module": "modules/rural.js"
+ },
+ "rural_paddy_03": {
+  "task": "rural",
+  "bbox": [
+   49.58,
+   6,
+   35.25,
+   78.9,
+   20,
+   40.95
+  ],
+  "kind": "level-water-rice-terrace-with-plants-bunds-and-retaining-stone",
+  "module": "modules/rural.js"
+ },
+ "rural_paddy_04": {
+  "task": "rural",
+  "bbox": [
+   49.41,
+   6,
+   41.05,
+   79.55,
+   20,
+   46.75
+  ],
+  "kind": "level-water-rice-terrace-with-plants-bunds-and-retaining-stone",
+  "module": "modules/rural.js"
+ },
+ "rural_paddy_05": {
+  "task": "rural",
+  "bbox": [
+   48.67,
+   6,
+   46.85,
+   79.6,
+   20,
+   52.55
+  ],
+  "kind": "level-water-rice-terrace-with-plants-bunds-and-retaining-stone",
+  "module": "modules/rural.js"
+ },
+ "rural_paddy_06": {
+  "task": "rural",
+  "bbox": [
+   47.71,
+   6,
+   52.65,
+   78.28,
+   20,
+   58.35
+  ],
+  "kind": "level-water-rice-terrace-with-plants-bunds-and-retaining-stone",
+  "module": "modules/rural.js"
+ },
+ "rural_paddy_07": {
+  "task": "rural",
+  "bbox": [
+   46.98,
+   6,
+   58.449999999999996,
+   75.5,
+   20,
+   64.15
+  ],
+  "kind": "level-water-rice-terrace-with-plants-bunds-and-retaining-stone",
+  "module": "modules/rural.js"
+ },
+ "rural_paddy_08": {
+  "task": "rural",
+  "bbox": [
+   46.82,
+   6,
+   64.25,
+   72.71,
+   20,
+   69.95
+  ],
+  "kind": "level-water-rice-terrace-with-plants-bunds-and-retaining-stone",
+  "module": "modules/rural.js"
+ },
+ "rural_paddy_09": {
+  "task": "rural",
+  "bbox": [
+   47.32,
+   6,
+   70.05000000000001,
+   69.93,
+   20,
+   75.75
+  ],
+  "kind": "level-water-rice-terrace-with-plants-bunds-and-retaining-stone",
+  "module": "modules/rural.js"
+ },
+ "rural_paddy_10": {
+  "task": "rural",
+  "bbox": [
+   48.22,
+   6,
+   75.85,
+   67.14,
+   20,
+   81.55
+  ],
+  "kind": "level-water-rice-terrace-with-plants-bunds-and-retaining-stone",
+  "module": "modules/rural.js"
+ },
+ "rural_irrigation_steps": {
+  "task": "rural",
+  "bbox": [
+   44,
+   6,
+   23,
+   51,
+   20,
+   83
+  ],
+  "kind": "stone-irrigation-channel-sluices-and-access-steps",
+  "module": "modules/rural.js"
+ },
+ "rural_farm_shed": {
+  "task": "rural",
+  "bbox": [
+   59,
+   10,
+   15,
+   67,
+   22,
+   21
+  ],
+  "kind": "timber-farm-shed-with-tiled-roof",
+  "module": "modules/rural.js"
+ },
+ "rural_farmyard": {
+  "task": "rural",
+  "bbox": [
+   51,
+   8,
+   13,
+   76,
+   20,
+   23
+  ],
+  "kind": "farmyard-with-fence-drying-rack-tools-bundles-and-path",
+  "module": "modules/rural.js"
+ },
+ "rural_spring": {
+  "task": "rural",
+  "bbox": [
+   36,
+   9,
+   64,
+   43,
+   19,
+   72
+  ],
+  "kind": "rock-lined-spring-pool-and-cascade",
+  "module": "modules/rural.js"
+ },
+ "rural_northern_woodland": {
+  "task": "rural",
+  "bbox": [
+   -127,
+   0,
+   37,
+   124,
+   47,
+   123
+  ],
+  "kind": "pine-and-flowering-cherry-woodland-with-rocks-shrubs-grass",
+  "module": "modules/rural.js"
+ },
+ "rural_western_woodland": {
+  "task": "rural",
+  "bbox": [
+   -133,
+   0,
+   -78,
+   -94,
+   32,
+   38
+  ],
+  "kind": "coastal-pine-and-cherry-woodland-with-understory",
+  "module": "modules/rural.js"
+ },
+ "rural_southern_woodland": {
+  "task": "rural",
+  "bbox": [
+   -105,
+   0,
+   -114,
+   47,
+   25,
+   -76
+  ],
+  "kind": "coastal-pine-and-cherry-groves-with-understory",
+  "module": "modules/rural.js"
+ },
+ "rural_eastern_woodland": {
+  "task": "rural",
+  "bbox": [
+   29,
+   0,
+   -76,
+   134,
+   36,
+   37
+  ],
+  "kind": "road-separated-pine-and-cherry-groves-with-understory",
+  "module": "modules/rural.js"
+ },
+ "rural_field_margin": {
+  "task": "rural",
+  "bbox": [
+   80,
+   1,
+   23,
+   93,
+   15,
+   86
+  ],
+  "kind": "grassy-farm-lane-verge-and-turning-margin",
+  "module": "modules/rural.js"
+ },
+ "town_lot0": {
+  "task": "town",
+  "bbox": [
+   -84,
+   2.69,
+   -39.36,
+   -72,
+   10.2,
+   -21.13
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot1": {
+  "task": "town",
+  "bbox": [
+   -87.86,
+   3.33,
+   -21.78,
+   -65.2,
+   12.81,
+   -7
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot2": {
+  "task": "town",
+  "bbox": [
+   -87.36,
+   6.01,
+   -0.5,
+   -61.68,
+   17.39,
+   10.75
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot3": {
+  "task": "town",
+  "bbox": [
+   -60,
+   3.22,
+   -34.2,
+   -48,
+   12.27,
+   -17.63
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot4": {
+  "task": "town",
+  "bbox": [
+   -55.5,
+   3.9,
+   -22.86,
+   -39.72,
+   12.46,
+   -6.73
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot5": {
+  "task": "town",
+  "bbox": [
+   -57.21,
+   8.81,
+   3,
+   -35.64,
+   21,
+   15
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot6": {
+  "task": "town",
+  "bbox": [
+   -46.36,
+   10.78,
+   9.5,
+   -26.7,
+   24.02,
+   20.75
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot7": {
+  "task": "town",
+  "bbox": [
+   -23.5,
+   3.75,
+   -19.37,
+   -7.72,
+   13.7,
+   -2.43
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot8": {
+  "task": "town",
+  "bbox": [
+   -15,
+   6.31,
+   2.13,
+   -0.75,
+   17.81,
+   21.87
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot9": {
+  "task": "town",
+  "bbox": [
+   5,
+   7.02,
+   6.23,
+   17,
+   16.1,
+   26.37
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot10": {
+  "task": "town",
+  "bbox": [
+   8.5,
+   5.18,
+   -10.86,
+   24.28,
+   14.81,
+   3.95
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot11": {
+  "task": "town",
+  "bbox": [
+   -78,
+   2.44,
+   -59.66,
+   -63.75,
+   11.7,
+   -42.59
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot12": {
+  "task": "town",
+  "bbox": [
+   -57,
+   2.9,
+   -57.86,
+   -45,
+   10.35,
+   -38.55
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot13": {
+  "task": "town",
+  "bbox": [
+   -38.5,
+   3.42,
+   -54.36,
+   -22.72,
+   11.61,
+   -32.4
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot14": {
+  "task": "town",
+  "bbox": [
+   -19,
+   3.34,
+   -47.86,
+   -4.75,
+   12.2,
+   -25.65
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot15": {
+  "task": "town",
+  "bbox": [
+   3,
+   2.98,
+   -43.36,
+   15,
+   11.93,
+   -20.49
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot16": {
+  "task": "town",
+  "bbox": [
+   12.72,
+   0.82,
+   -57.36,
+   29,
+   10.23,
+   -38.14
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot17": {
+  "task": "town",
+  "bbox": [
+   -56,
+   2.93,
+   -73.09,
+   -41.75,
+   11.23,
+   -53.64
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot18": {
+  "task": "town",
+  "bbox": [
+   -33,
+   3.11,
+   -69.89,
+   -21,
+   11.54,
+   -51.14
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot19": {
+  "task": "town",
+  "bbox": [
+   -17.28,
+   3.06,
+   -65.84,
+   -1,
+   12.18,
+   -46.64
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot20": {
+  "task": "town",
+  "bbox": [
+   -93,
+   0.35,
+   -61.5,
+   -77.31,
+   10.09,
+   -50.25
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot21": {
+  "task": "town",
+  "bbox": [
+   -79.36,
+   9.63,
+   12,
+   -62.27,
+   22.53,
+   24
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot22": {
+  "task": "town",
+  "bbox": [
+   -24,
+   11.48,
+   22.5,
+   -4.13,
+   28.32,
+   36.28
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_lot23": {
+  "task": "town",
+  "bbox": [
+   -2,
+   6.84,
+   5.66,
+   12.25,
+   21.46,
+   38
+  ],
+  "kind": "timber-house-with-private-yard-and-garden",
+  "module": "modules/town.js"
+ },
+ "town_street_furniture": {
+  "task": "town",
+  "bbox": [
+   -93.73,
+   0.37,
+   -69.37,
+   16.63,
+   16.43,
+   27.1
+  ],
+  "kind": "carts-barrels-market-tables-and-stone-lanterns",
+  "module": "modules/town.js"
+ },
+ "town_yard_planting": {
+  "task": "town",
+  "bbox": [
+   -95.38,
+   2.25,
+   -72.93,
+   28.74,
+   31.38,
+   36.69
+  ],
+  "kind": "cherry-and-pine-gardens-with-shrubs-and-stones",
+  "module": "modules/town.js"
+ },
+ "root_island": {
+  "task": "root",
+  "bbox": [
+   -180,
+   -8,
+   -180,
+   180,
+   34,
+   180
+  ],
+  "kind": "terrain",
+  "module": "modules/root.js"
+ },
+ "root_sea": {
+  "task": "root",
+  "bbox": [
+   -10000,
+   -0.3,
+   -10000,
+   10000,
+   0,
+   10000
+  ],
+  "kind": "water",
+  "module": "modules/root.js"
+ },
+ "root_roads": {
+  "task": "root",
+  "bbox": [
+   -90,
+   0,
+   -80,
+   95,
+   28,
+   74
+  ],
+  "kind": "roads",
+  "module": "modules/root.js"
+ },
+ "root_stream": {
+  "task": "root",
+  "bbox": [
+   23,
+   -3,
+   -104,
+   47,
+   19,
+   68
+  ],
+  "kind": "stream",
+  "module": "modules/root.js"
+ },
+ "root_bridge": {
+  "task": "root",
+  "bbox": [
+   24,
+   -1,
+   -20,
+   49,
+   12,
+   -10
+  ],
+  "kind": "bridge",
+  "module": "modules/root.js"
+ },
+ "root_town_foundations": {
+  "task": "root",
+  "bbox": [
+   -95,
+   1,
+   -67,
+   28,
+   27,
+   37
+  ],
+  "kind": "district-foundations",
+  "module": "modules/root.js"
+ },
+ "root_temple_platform": {
+  "task": "root",
+  "bbox": [
+   -70,
+   24.9,
+   32,
+   -22,
+   26.65,
+   76
+  ],
+  "kind": "temple-platform",
+  "module": "modules/root.js"
+ },
+ "root_harbor_quay": {
+  "task": "root",
+  "bbox": [
+   50,
+   -0.5,
+   -79,
+   96,
+   2.92,
+   -56
+  ],
+  "kind": "quay",
+  "module": "modules/root.js"
+ },
+ "root_culverts": {
+  "task": "root",
+  "bbox": [
+   23,
+   -1,
+   -62,
+   48,
+   18,
+   13
+  ],
+  "kind": "stone-culverts",
+  "module": "modules/root.js"
+ }
+}

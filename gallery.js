@@ -14,6 +14,7 @@ renderer.setPixelRatio(Math.min(devicePixelRatio, 2)); renderer.shadowMap.enable
 document.body.appendChild(renderer.domElement);
 const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100000);
 const controls = new OrbitControls(camera, renderer.domElement); controls.enableDamping = true;
+controls.zoomSpeed = 0.35; controls.zoomToCursor = true;   // gentle wheel zoom, towards what the pointer is on
 let scene = new THREE.Scene(), current = null;
 
 function resize() { renderer.setSize(innerWidth, innerHeight); camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); }

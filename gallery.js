@@ -14,7 +14,16 @@ renderer.setPixelRatio(Math.min(devicePixelRatio, 2)); renderer.shadowMap.enable
 document.body.appendChild(renderer.domElement);
 const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100000);
 const controls = new OrbitControls(camera, renderer.domElement); controls.enableDamping = true;
-controls.zoomSpeed = 0.35; controls.zoomToCursor = true;   // gentle wheel zoom, towards what the pointer is on
+// Wheel zoom: OrbitControls scales per event, which is far too fast on a trackpad. Dolly by the wheel delta instead,
+// at most 6% per event, towards the orbit target; pinch on a trackpad arrives as ctrl+wheel and behaves the same.
+controls.enableZoom = false;
+renderer.domElement.addEventListener('wheel', e => {
+  e.preventDefault();
+  const px = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaMode === 2 ? e.deltaY * 400 : e.deltaY;   // lines / pages -> pixels
+  const f = Math.exp(Math.max(-60, Math.min(60, px)) / 60 * 0.06);
+  const v = camera.position.clone().sub(controls.target); const d = v.length() * f;
+  camera.position.copy(controls.target).add(v.setLength(Math.max(2, Math.min(50000, d))));
+}, { passive: false });
 let scene = new THREE.Scene(), current = null;
 
 function resize() { renderer.setSize(innerWidth, innerHeight); camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); }
